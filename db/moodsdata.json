@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Happy",
+    "impact": "Positive"
+  },
+  {
+    "name": "Super Happy",
+    "impact": "Positive"
+  },
+  {
+    "name": "Happy",
+    "impact": "Positive"
+  },
+  {
+    "name": "Sad",
+    "impact": "Negative"
+  },
+  {
+    "name": "Sensitive",
+    "impact": "Negative"
+  },
+  {
+    "name": "Angry",
+    "impact": "Negative"
+  },
+  {
+    "name": "Confident",
+    "impact": "Positive"
+  },
+  {
+    "name": "Excited",
+    "impact": "Positive"
+  },
+  {
+    "name": "Irritable",
+    "impact": "Negative"
+  },
+  {
+    "name": "Anxious",
+    "impact": "Negative"
+  },
+  {
+    "name": "Insecure",
+    "impact": "Negative"
+  },
+  {
+    "name": "Grateful",
+    "impact": "Negative"
+  },
+  {
+    "name": "Indifferent",
+    "impact": "Negative"
+  },
+  {
+    "name": "Relaxed",
+    "impact": "Positive"
+  },
+  {
+    "name": "Content",
+    "impact": "Positive"
+  },
+  {
+    "name": "Joyful",
+    "impact": "Positive"
+  },
+  {
+    "name": "Optimistic",
+    "impact": "Positive"
+  },
+  {
+    "name": "Calm",
+    "impact": "Positive"
+  },
+  {
+    "name": "Energetic",
+    "impact": "Positive"
+  },
+  {
+    "name": "Motivated",
+    "impact": "Positive"
+  },
+  {
+    "name": "Enthusiastic",
+    "impact": "Positive"
+  },
+  {
+    "name": "Peaceful",
+    "impact": "Positive"
+  },
+  {
+    "name": "Disappointed",
+    "impact": "Negative"
+  },
+  {
+    "name": "Lonely",
+    "impact": "Negative"
+  },
+  {
+    "name": "Overwhelmed",
+    "impact": "Negative"
+  },
+  {
+    "name": "Stressed",
+    "impact": "Negative"
+  },
+  {
+    "name": "Tired",
+    "impact": "Negative"
+  },
+  {
+    "name": "Frustrated",
+    "impact": "Negative"
+  }
+]

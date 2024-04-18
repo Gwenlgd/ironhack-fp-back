@@ -1,0 +1,2373 @@
+[
+  {
+    "id": 1,
+    "name": "Water",
+    "category": "Liquid",
+    "benefits": {
+      "Hydration": "Essential for maintaining proper bodily functions.",
+      "Digestion": "Aids in the digestion process.",
+      "Temperature regulation": "Helps regulate body temperature.",
+      "Skin health": "Promotes healthy skin hydration."
+    }
+  },
+  {
+    "id": 2,
+    "name": "Salt",
+    "category": "Seasoning",
+    "benefits": {
+      "Electrolyte balance": "Helps maintain electrolyte balance in the body.",
+      "Nerve function": "Essential for nerve function.",
+      "Muscle function": "Important for muscle function."
+    }
+  },
+  {
+    "id": 3,
+    "name": "Sugar",
+    "category": "Sweetener",
+    "benefits": {
+      "Quick energy": "Provides a quick source of energy.",
+      "Brain function": "Supports brain function.",
+      "Mood improvement": "Can temporarily elevate mood."
+    }
+  },
+  {
+    "id": 4,
+    "name": "Flour",
+    "category": "Ingredient",
+    "benefits": {
+      "Energy": "Provides carbohydrates for energy.",
+      "Fiber": "Some flours contain fiber, which aids in digestion.",
+      "Nutrient absorption": "Helps with the absorption of other nutrients."
+    }
+  },
+  {
+    "id": 5,
+    "name": "Eggs",
+    "category": "Ingredient",
+    "benefits": {
+      "Protein": "Excellent source of high-quality protein.",
+      "Nutrient-rich": "Contains various vitamins and minerals.",
+      "Eye health": "Rich in antioxidants that promote eye health."
+    }
+  },
+  {
+    "id": 6,
+    "name": "Milk",
+    "category": "Liquid",
+    "benefits": {
+      "Bone health": "Good source of calcium, important for bone health.",
+      "Muscle growth": "Contains protein for muscle growth and repair.",
+      "Teeth health": "Calcium and vitamin D in milk promote healthy teeth."
+    }
+  },
+  {
+    "id": 7,
+    "name": "Olive Oil",
+    "category": "Cooking Oil",
+    "benefits": {
+      "Heart health": "Rich in monounsaturated fats, which may lower the risk of heart disease.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect cells from damage.",
+      "Brain function": "May support brain health and cognitive function."
+    }
+  },
+  {
+    "id": 8,
+    "name": "Broccoli",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Fiber": "Rich in fiber, which aids in digestion and may reduce the risk of certain diseases.",
+      "Antioxidants": "Contains antioxidants that may reduce the risk of chronic diseases."
+    }
+  },
+  {
+    "id": 9,
+    "name": "Chicken",
+    "category": "Meat",
+    "benefits": {
+      "Protein": "High-quality source of protein, essential for muscle repair and growth.",
+      "B vitamins": "Contains B vitamins such as niacin and B6, important for metabolism and energy production.",
+      "Selenium": "Rich in selenium, which plays a role in thyroid function and immune health."
+    }
+  },
+  {
+    "id": 10,
+    "name": "Spinach",
+    "category": "Vegetable",
+    "benefits": {
+      "Iron": "High in iron, which is important for oxygen transport in the body.",
+      "Vitamin K": "Good source of vitamin K, which is essential for blood clotting and bone health.",
+      "Antioxidants": "Contains antioxidants that may reduce oxidative stress and inflammation."
+    }
+  },
+  {
+    "id": 11,
+    "name": "Quinoa",
+    "category": "Grain",
+    "benefits": {
+      "Protein": "Complete protein source, containing all essential amino acids.",
+      "Fiber": "High in fiber, which promotes digestive health and may reduce the risk of chronic diseases.",
+      "Minerals": "Rich in minerals like magnesium, manganese, and phosphorus."
+    }
+  },
+  {
+    "id": 12,
+    "name": "Salmon",
+    "category": "Fish",
+    "benefits": {
+      "Omega-3 fatty acids": "High in omega-3 fatty acids, which support heart and brain health.",
+      "Protein": "Excellent source of high-quality protein, important for muscle repair and growth.",
+      "Vitamin D": "Good source of vitamin D, which is important for bone health and immune function."
+    }
+  },
+  {
+    "id": 13,
+    "name": "Avocado",
+    "category": "Fruit",
+    "benefits": {
+      "Healthy fats": "Rich in monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Fiber": "High in fiber, which aids in digestion and may help maintain a healthy weight.",
+      "Potassium": "Good source of potassium, which helps regulate blood pressure and muscle function."
+    }
+  },
+  {
+    "id": 14,
+    "name": "Yogurt",
+    "category": "Dairy",
+    "benefits": {
+      "Probiotics": "Contains probiotics, which support gut health and may boost the immune system.",
+      "Calcium": "Good source of calcium, important for bone health and muscle function.",
+      "Protein": "Provides a good source of protein for muscle repair and growth."
+    }
+  },
+  {
+    "id": 15,
+    "name": "Tomatoes",
+    "category": "Vegetable",
+    "benefits": {
+      "Antioxidants": "Rich in antioxidants such as lycopene, which may reduce the risk of certain cancers and promote heart health.",
+      "Vitamin C": "Good source of vitamin C, which supports the immune system and collagen production.",
+      "Hydration": "High water content helps with hydration and overall health."
+    }
+  },
+  {
+    "id": 16,
+    "name": "Garlic",
+    "category": "Vegetable",
+    "benefits": {
+      "Antimicrobial properties": "Contains compounds with antimicrobial properties that may help fight infections.",
+      "Heart health": "May lower cholesterol levels and reduce the risk of heart disease.",
+      "Antioxidants": "Rich in antioxidants that protect against oxidative damage."
+    }
+  },
+  {
+    "id": 17,
+    "name": "Blueberries",
+    "category": "Fruit",
+    "benefits": {
+      "Antioxidants": "High in antioxidants that may reduce the risk of chronic diseases and support brain health.",
+      "Fiber": "Good source of fiber, which aids in digestion and promotes heart health.",
+      "Vitamin C": "Contains vitamin C, which supports the immune system and collagen production."
+    }
+  },
+  {
+    "id": 18,
+    "name": "Almonds",
+    "category": "Nuts",
+    "benefits": {
+      "Healthy fats": "Rich in monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Vitamin E": "Good source of vitamin E, which acts as an antioxidant and supports skin health.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth."
+    }
+  },
+  {
+    "id": 19,
+    "name": "Bananas",
+    "category": "Fruit",
+    "benefits": {
+      "Potassium": "High in potassium, which helps regulate blood pressure and muscle function.",
+      "Energy": "Provides a quick source of energy due to its carbohydrate content.",
+      "Digestive health": "Contains dietary fiber, which aids in digestion and may promote gut health."
+    }
+  },
+  {
+    "id": 20,
+    "name": "Sweet Potatoes",
+    "category": "Vegetable",
+    "benefits": {
+      "Beta-carotene": "Rich in beta-carotene, which is converted into vitamin A in the body and supports eye health.",
+      "Fiber": "Good source of fiber, which aids in digestion and promotes a feeling of fullness.",
+      "Vitamin C": "Contains vitamin C, which supports the immune system and collagen production."
+    }
+  },
+  {
+    "id": 21,
+    "name": "Honey",
+    "category": "Sweetener",
+    "benefits": {
+      "Antimicrobial properties": "Contains antimicrobial properties that may help fight infections and support wound healing.",
+      "Antioxidants": "Rich in antioxidants that protect against oxidative damage and promote overall health.",
+      "Energy": "Provides a natural source of energy due to its carbohydrate content."
+    }
+  },
+  {
+    "id": 22,
+    "name": "Green Tea",
+    "category": "Beverage",
+    "benefits": {
+      "Antioxidants": "High in antioxidants, particularly catechins, which may reduce the risk of chronic diseases and support heart health.",
+      "Brain function": "Contains caffeine and L-theanine, which may improve brain function and promote mental alertness.",
+      "Metabolism": "May boost metabolism and promote weight loss."
+    }
+  },
+  {
+    "id": 23,
+    "name": "Dark Chocolate",
+    "category": "Confectionery",
+    "benefits": {
+      "Antioxidants": "Rich in antioxidants, particularly flavonoids, which may reduce the risk of chronic diseases and support heart health.",
+      "Mood improvement": "Contains compounds that may improve mood and reduce stress.",
+      "Brain function": "May improve cognitive function and promote brain health."
+    }
+  },
+  {
+    "id": 24,
+    "name": "Chickpeas",
+    "category": "Legume",
+    "benefits": {
+      "Protein": "Good source of plant-based protein, important for muscle repair and growth.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Iron": "Contains iron, which is important for oxygen transport in the body."
+    }
+  },
+  {
+    "id": 25,
+    "name": "Oranges",
+    "category": "Fruit",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Hydration": "High water content helps with hydration and overall health.",
+      "Fiber": "Good source of fiber, which aids in digestion and promotes heart health."
+    }
+  },
+  {
+    "id": 26,
+    "name": "Tuna",
+    "category": "Fish",
+    "benefits": {
+      "Protein": "High-quality source of protein, important for muscle repair and growth.",
+      "Omega-3 fatty acids": "Contains omega-3 fatty acids, which support heart and brain health.",
+      "Vitamin D": "Good source of vitamin D, which is important for bone health and immune function."
+    }
+  },
+  {
+    "id": 27,
+    "name": "Brown Rice",
+    "category": "Grain",
+    "benefits": {
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Complex carbohydrates": "Provides sustained energy due to its complex carbohydrate content.",
+      "Minerals": "Contains minerals such as magnesium and selenium, which are important for overall health."
+    }
+  },
+  {
+    "id": 28,
+    "name": "Cucumber",
+    "category": "Vegetable",
+    "benefits": {
+      "Hydration": "High water content helps with hydration and overall health.",
+      "Vitamins and minerals": "Contains vitamins and minerals such as vitamin K and potassium, which support overall health.",
+      "Digestive health": "High fiber content aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 29,
+    "name": "Red Bell Pepper",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Antioxidants": "Rich in antioxidants such as beta-carotene, which may reduce the risk of chronic diseases.",
+      "Eye health": "Contains compounds that may promote eye health and reduce the risk of age-related macular degeneration."
+    }
+  },
+  {
+    "id": 30,
+    "name": "Cinnamon",
+    "category": "Spice",
+    "benefits": {
+      "Antioxidants": "Rich in antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Blood sugar control": "May help improve insulin sensitivity and lower blood sugar levels.",
+      "Heart health": "May improve cholesterol levels and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 31,
+    "name": "Greek Yogurt",
+    "category": "Dairy",
+    "benefits": {
+      "Protein": "Provides a good source of protein for muscle repair and growth.",
+      "Probiotics": "Contains probiotics that support gut health and may boost the immune system.",
+      "Calcium": "Good source of calcium, important for bone health and muscle function."
+    }
+  },
+  {
+    "id": 32,
+    "name": "Walnuts",
+    "category": "Nuts",
+    "benefits": {
+      "Healthy fats": "Rich in omega-3 fatty acids, which support heart health and brain function.",
+      "Antioxidants": "Contain antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Plant-based protein": "Provides a good source of plant-based protein for muscle repair and growth."
+    }
+  },
+  {
+    "id": 33,
+    "name": "Oats",
+    "category": "Grain",
+    "benefits": {
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Complex carbohydrates": "Provides sustained energy due to its complex carbohydrate content.",
+      "Vitamins and minerals": "Contains vitamins and minerals such as iron, magnesium, and zinc."
+    }
+  },
+  {
+    "id": 34,
+    "name": "Kale",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as minerals like calcium and potassium.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 35,
+    "name": "Coconut Oil",
+    "category": "Cooking Oil",
+    "benefits": {
+      "Medium-chain triglycerides (MCTs)": "Contains MCTs that may promote weight loss and improve brain function.",
+      "Antimicrobial properties": "Has antimicrobial properties that may help fight infections and support oral health.",
+      "Skin and hair health": "May improve skin and hair health when applied topically."
+    }
+  },
+  {
+    "id": 36,
+    "name": "Soybeans",
+    "category": "Legume",
+    "benefits": {
+      "Protein": "Good source of plant-based protein, important for muscle repair and growth.",
+      "Isoflavones": "Contain isoflavones that may reduce the risk of certain cancers and support heart health.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 37,
+    "name": "Green Leafy Vegetables",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as minerals like iron and calcium.",
+      "Antioxidants": "Contain antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 38,
+    "name": "Black Beans",
+    "category": "Legume",
+    "benefits": {
+      "Protein": "Good source of plant-based protein, important for muscle repair and growth.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Iron": "Contains iron, which is important for oxygen transport in the body."
+    }
+  },
+  {
+    "id": 39,
+    "name": "Red Wine",
+    "category": "Beverage",
+    "benefits": {
+      "Antioxidants": "Contains resveratrol and other antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease when consumed in moderation.",
+      "Longevity": "Some studies suggest that moderate red wine consumption may be associated with longevity."
+    }
+  },
+  {
+    "id": 40,
+    "name": "Pumpkin",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and E, as well as minerals like potassium and magnesium.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 41,
+    "name": "Ginger",
+    "category": "Spice",
+    "benefits": {
+      "Digestive health": "May help alleviate digestive issues such as nausea and indigestion.",
+      "Anti-inflammatory properties": "Contains compounds with anti-inflammatory properties that may reduce pain and inflammation.",
+      "Immune support": "May boost the immune system and help fight infections."
+    }
+  },
+  {
+    "id": 42,
+    "name": "Turmeric",
+    "category": "Spice",
+    "benefits": {
+      "Anti-inflammatory properties": "Contains curcumin, which has potent anti-inflammatory effects.",
+      "Antioxidants": "Rich in antioxidants that may protect against chronic diseases and support overall health.",
+      "Brain health": "May improve brain function and reduce the risk of neurodegenerative diseases."
+    }
+  },
+  {
+    "id": 43,
+    "name": "Cauliflower",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins C and K, as well as minerals like potassium and manganese.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Low-calorie": "Low in calories and carbohydrates, making it a great option for weight management."
+    }
+  },
+  {
+    "id": 44,
+    "name": "Chia Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Omega-3 fatty acids": "Rich in omega-3 fatty acids, which support heart health and brain function.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth."
+    }
+  },
+  {
+    "id": 45,
+    "name": "Brussels Sprouts",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins K and C, as well as minerals like potassium and folate.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 46,
+    "name": "Lentils",
+    "category": "Legume",
+    "benefits": {
+      "Protein": "Good source of plant-based protein, important for muscle repair and growth.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Iron": "Contains iron, which is important for oxygen transport in the body."
+    }
+  },
+  {
+    "id": 47,
+    "name": "Flaxseeds",
+    "category": "Seed",
+    "benefits": {
+      "Omega-3 fatty acids": "Rich in alpha-linolenic acid (ALA), a type of omega-3 fatty acid that supports heart health and brain function.",
+      "Fiber": "High in soluble and insoluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Lignans": "Contain lignans, which have antioxidant properties and may reduce the risk of certain cancers."
+    }
+  },
+  {
+    "id": 48,
+    "name": "Soy Milk",
+    "category": "Plant-Based Milk",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Calcium": "Fortified with calcium, important for bone health and muscle function.",
+      "Vitamins and minerals": "May be fortified with vitamins and minerals like vitamin D and B12."
+    }
+  },
+  {
+    "id": 49,
+    "name": "Peanuts",
+    "category": "Nuts",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Healthy fats": "Rich in monounsaturated and polyunsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Vitamins and minerals": "Contain vitamins and minerals such as vitamin E, magnesium, and phosphorus."
+    }
+  },
+  {
+    "id": 50,
+    "name": "Cabbage",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins C and K, as well as minerals like potassium and manganese.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 51,
+    "name": "Almond Butter",
+    "category": "Nut Butter",
+    "benefits": {
+      "Healthy fats": "Rich in monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Vitamin E": "Good source of vitamin E, which acts as an antioxidant and supports skin health."
+    }
+  },
+  {
+    "id": 52,
+    "name": "Eggplant",
+    "category": "Vegetable",
+    "benefits": {
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Heart health": "May help lower cholesterol levels and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 53,
+    "name": "Sesame Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Healthy fats": "Rich in unsaturated fats, which may help reduce inflammation and support heart health.",
+      "Calcium": "Good source of calcium, important for bone health and muscle function.",
+      "Iron": "Contains iron, which is important for oxygen transport in the body."
+    }
+  },
+  {
+    "id": 54,
+    "name": "Chickpea Flour",
+    "category": "Flour",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Gluten-free": "Naturally gluten-free, making it suitable for those with gluten intolerance."
+    }
+  },
+  {
+    "id": 55,
+    "name": "Tofu",
+    "category": "Soy Product",
+    "benefits": {
+      "Protein": "Good source of plant-based protein, important for muscle repair and growth.",
+      "Calcium": "Contains calcium, important for bone health and muscle function.",
+      "Isoflavones": "Rich in isoflavones, which may reduce the risk of certain cancers and support heart health."
+    }
+  },
+  {
+    "id": 56,
+    "name": "Shiitake Mushrooms",
+    "category": "Mushroom",
+    "benefits": {
+      "Antioxidants": "Contain antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Immune support": "May boost the immune system and help fight infections.",
+      "Vitamin D": "Good source of vitamin D, which is important for bone health and immune function."
+    }
+  },
+  {
+    "id": 57,
+    "name": "Peanut Butter",
+    "category": "Nut Butter",
+    "benefits": {
+      "Healthy fats": "Rich in monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Vitamins and minerals": "Contains vitamins and minerals such as vitamin E, magnesium, and potassium."
+    }
+  },
+  {
+    "id": 58,
+    "name": "Basil",
+    "category": "Herb",
+    "benefits": {
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Anti-inflammatory properties": "Has anti-inflammatory properties that may reduce pain and inflammation.",
+      "Digestive health": "May aid in digestion and relieve digestive discomfort."
+    }
+  },
+  {
+    "id": 59,
+    "name": "Mango",
+    "category": "Fruit",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Vitamin A": "Good source of vitamin A, important for eye health and immune function.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 60,
+    "name": "Cottage Cheese",
+    "category": "Dairy",
+    "benefits": {
+      "Protein": "Provides a good source of protein for muscle repair and growth.",
+      "Calcium": "Good source of calcium, important for bone health and muscle function.",
+      "Probiotics": "May contain probiotics, which support gut health and may boost the immune system."
+    }
+  },
+  {
+    "id": 61,
+    "name": "Hazelnuts",
+    "category": "Nuts",
+    "benefits": {
+      "Healthy fats": "Rich in monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Vitamin E": "Good source of vitamin E, which acts as an antioxidant and supports skin health.",
+      "Fiber": "Contains fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 62,
+    "name": "Pomegranate",
+    "category": "Fruit",
+    "benefits": {
+      "Antioxidants": "Rich in antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease.",
+      "Immune support": "Contains compounds that may boost the immune system and help fight infections."
+    }
+  },
+  {
+    "id": 63,
+    "name": "Raspberries",
+    "category": "Fruit",
+    "benefits": {
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Vitamin C": "Good source of vitamin C, which supports the immune system and collagen production.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 64,
+    "name": "Cranberries",
+    "category": "Fruit",
+    "benefits": {
+      "Urinary tract health": "May help prevent urinary tract infections (UTIs) due to their ability to prevent bacteria from adhering to the urinary tract lining.",
+      "Antioxidants": "Rich in antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 65,
+    "name": "Pistachios",
+    "category": "Nuts",
+    "benefits": {
+      "Healthy fats": "Rich in monounsaturated and polyunsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Vitamins and minerals": "Contain vitamins and minerals such as vitamin B6, potassium, and copper."
+    }
+  },
+  {
+    "id": 66,
+    "name": "Blackberries",
+    "category": "Fruit",
+    "benefits": {
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Vitamin C": "Good source of vitamin C, which supports the immune system and collagen production."
+    }
+  },
+  {
+    "id": 67,
+    "name": "Sunflower Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Healthy fats": "Contain healthy fats, including monounsaturated and polyunsaturated fats, which may support heart health.",
+      "Vitamin E": "Good source of vitamin E, which acts as an antioxidant and supports skin health.",
+      "Magnesium": "Rich in magnesium, which is important for nerve function and muscle health."
+    }
+  },
+  {
+    "id": 68,
+    "name": "Cantaloupe",
+    "category": "Fruit",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Vitamin A": "Good source of vitamin A, important for eye health and immune function.",
+      "Hydration": "High water content helps with hydration and overall health."
+    }
+  },
+  {
+    "id": 69,
+    "name": "Peanut Oil",
+    "category": "Cooking Oil",
+    "benefits": {
+      "Heart health": "Contains monounsaturated fats that may improve heart health and lower the risk of heart disease.",
+      "Vitamin E": "Good source of vitamin E, which acts as an antioxidant and supports skin health.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 70,
+    "name": "Cayenne Pepper",
+    "category": "Spice",
+    "benefits": {
+      "Metabolism": "May boost metabolism and promote weight loss due to its capsaicin content.",
+      "Pain relief": "Has analgesic properties that may help relieve pain, particularly related to arthritis and neuropathy.",
+      "Digestive health": "May aid in digestion and help prevent digestive issues."
+    }
+  },
+  {
+    "id": 71,
+    "name": "Cocoa Powder",
+    "category": "Baking Ingredient",
+    "benefits": {
+      "Antioxidants": "Rich in flavonoids, which have antioxidant properties that may reduce inflammation and protect against chronic diseases.",
+      "Heart health": "May improve heart health and lower the risk of heart disease.",
+      "Mood enhancement": "Contains compounds that may improve mood and reduce stress."
+    }
+  },
+  {
+    "id": 72,
+    "name": "Papaya",
+    "category": "Fruit",
+    "benefits": {
+      "Digestive health": "Contains enzymes like papain, which aid in digestion and may help prevent constipation.",
+      "Vitamin C": "Good source of vitamin C, which supports the immune system and collagen production.",
+      "Antioxidants": "Rich in antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 73,
+    "name": "Mushrooms",
+    "category": "Vegetable",
+    "benefits": {
+      "Immune support": "Contain compounds like beta-glucans that may boost the immune system.",
+      "Vitamin D": "Some varieties are a natural source of vitamin D, which is important for bone health and immune function.",
+      "Antioxidants": "Contain antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 74,
+    "name": "Kiwifruit",
+    "category": "Fruit",
+    "benefits": {
+      "Digestive health": "High in fiber and contains actinidin, an enzyme that aids in digestion.",
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 75,
+    "name": "Chia Pudding",
+    "category": "Dessert",
+    "benefits": {
+      "Omega-3 fatty acids": "Contains omega-3 fatty acids, which support heart health and brain function.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth."
+    }
+  },
+  {
+    "id": 76,
+    "name": "Artichokes",
+    "category": "Vegetable",
+    "benefits": {
+      "Digestive health": "High in fiber and contains compounds like cynarin, which support liver and digestive health.",
+      "Antioxidants": "Rich in antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Vitamins and minerals": "Contain vitamins C and K, as well as minerals like potassium and magnesium."
+    }
+  },
+  {
+    "id": 77,
+    "name": "Parsley",
+    "category": "Herb",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as minerals like calcium and potassium.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Fresh breath": "May help freshen breath and improve oral health."
+    }
+  },
+  {
+    "id": 78,
+    "name": "Black Rice",
+    "category": "Grain",
+    "benefits": {
+      "Antioxidants": "Contains anthocyanins, which are potent antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Vitamins and minerals": "Rich in vitamins and minerals like iron, magnesium, and zinc."
+    }
+  },
+  {
+    "id": 79,
+    "name": "Beets",
+    "category": "Vegetable",
+    "benefits": {
+      "Heart health": "Contains nitrates, which may help lower blood pressure and improve heart health.",
+      "Antioxidants": "Rich in antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Exercise performance": "May improve exercise performance and endurance due to their nitrate content."
+    }
+  },
+  {
+    "id": 80,
+    "name": "Arugula",
+    "category": "Leafy Green",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as minerals like calcium and potassium.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Bone health": "May support bone health and density due to its vitamin K and calcium content."
+    }
+  },
+  {
+    "id": 81,
+    "name": "Cacao Nibs",
+    "category": "Superfood",
+    "benefits": {
+      "Antioxidants": "Rich in flavonoids and polyphenols, which have antioxidant properties that may reduce inflammation and protect against chronic diseases.",
+      "Heart health": "May improve heart health and lower the risk of heart disease.",
+      "Mood enhancement": "Contains compounds that may improve mood and reduce stress."
+    }
+  },
+  {
+    "id": 82,
+    "name": "Romaine Lettuce",
+    "category": "Leafy Green",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as minerals like calcium and potassium.",
+      "Hydration": "High water content helps with hydration and overall health.",
+      "Digestive health": "Contains fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 83,
+    "name": "Cilantro",
+    "category": "Herb",
+    "benefits": {
+      "Detoxification": "Contains compounds that may help remove heavy metals and toxins from the body.",
+      "Antioxidants": "Rich in antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Digestive health": "May aid in digestion and alleviate digestive discomfort."
+    }
+  },
+  {
+    "id": 84,
+    "name": "Saffron",
+    "category": "Spice",
+    "benefits": {
+      "Antioxidants": "Contains compounds like crocin and crocetin, which have antioxidant properties that may reduce inflammation and protect against chronic diseases.",
+      "Mood enhancement": "May improve mood and reduce symptoms of depression and anxiety.",
+      "Brain health": "May improve cognitive function and reduce the risk of neurodegenerative diseases."
+    }
+  },
+  {
+    "id": 85,
+    "name": "Bok Choy",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as minerals like calcium and potassium.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Bone health": "May support bone health and density due to its vitamin K and calcium content."
+    }
+  },
+  {
+    "id": 86,
+    "name": "Quinoa",
+    "category": "Grain",
+    "benefits": {
+      "Protein": "Complete source of protein, containing all nine essential amino acids.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Vitamins and minerals": "Rich in vitamins and minerals like magnesium, iron, and manganese."
+    }
+  },
+  {
+    "id": 87,
+    "name": "Swiss Chard",
+    "category": "Leafy Green",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as minerals like magnesium and potassium.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Eye health": "May promote eye health and reduce the risk of age-related macular degeneration."
+    }
+  },
+  {
+    "id": 88,
+    "name": "Jasmine Rice",
+    "category": "Grain",
+    "benefits": {
+      "Energy": "Provides a quick source of energy due to its high carbohydrate content.",
+      "Vitamins and minerals": "Contains vitamins and minerals like niacin, thiamine, and manganese.",
+      "Digestive health": "May aid in digestion and alleviate digestive discomfort."
+    }
+  },
+  {
+    "id": 89,
+    "name": "Alfalfa Sprouts",
+    "category": "Sprout",
+    "benefits": {
+      "Nutrient-rich": "Packed with vitamins and minerals like vitamin K, vitamin C, folate, and manganese.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Heart health": "May help lower cholesterol levels and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 90,
+    "name": "Cumin",
+    "category": "Spice",
+    "benefits": {
+      "Digestive health": "May aid in digestion and alleviate digestive discomfort.",
+      "Antioxidants": "Contains compounds like cuminaldehyde and luteolin, which have antioxidant properties.",
+      "Iron absorption": "May improve iron absorption due to its high content of iron and other nutrients."
+    }
+  },
+  {
+    "id": 91,
+    "name": "Asparagus",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as folate and potassium.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Digestive health": "High in fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 92,
+    "name": "Sardines",
+    "category": "Fish",
+    "benefits": {
+      "Omega-3 fatty acids": "Rich in omega-3 fatty acids, which support heart health and brain function.",
+      "Protein": "Provides a good source of protein for muscle repair and growth.",
+      "Calcium": "Good source of calcium, important for bone health and muscle function."
+    }
+  },
+  {
+    "id": 93,
+    "name": "Spinach",
+    "category": "Leafy Green",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as folate, iron, and magnesium.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Eye health": "May promote eye health and reduce the risk of age-related macular degeneration."
+    }
+  },
+  {
+    "id": 94,
+    "name": "Basil Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Omega-3 fatty acids": "Contain omega-3 fatty acids, which support heart health and brain function.",
+      "Minerals": "Rich in minerals like calcium, magnesium, and iron."
+    }
+  },
+  {
+    "id": 95,
+    "name": "Cottage Cheese",
+    "category": "Dairy",
+    "benefits": {
+      "Protein": "Provides a good source of protein for muscle repair and growth.",
+      "Calcium": "Good source of calcium, important for bone health and muscle function.",
+      "Probiotics": "May contain probiotics, which support gut health and may boost the immune system."
+    }
+  },
+  {
+    "id": 96,
+    "name": "Steel-Cut Oats",
+    "category": "Grain",
+    "benefits": {
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Complex carbohydrates": "Provides sustained energy due to its complex carbohydrate content.",
+      "Vitamins and minerals": "Contains vitamins and minerals like iron, magnesium, and zinc."
+    }
+  },
+  {
+    "id": 97,
+    "name": "Blackstrap Molasses",
+    "category": "Sweetener",
+    "benefits": {
+      "Iron": "Rich in iron, which is important for oxygen transport in the body.",
+      "Calcium": "Good source of calcium, important for bone health and muscle function.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 98,
+    "name": "Grapes",
+    "category": "Fruit",
+    "benefits": {
+      "Antioxidants": "Rich in antioxidants such as resveratrol, which may reduce inflammation and protect against chronic diseases.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease.",
+      "Hydration": "High water content helps with hydration and overall health."
+    }
+  },
+  {
+    "id": 99,
+    "name": "Almond Milk",
+    "category": "Plant-Based Milk",
+    "benefits": {
+      "Healthy fats": "Low in saturated fat and contains heart-healthy monounsaturated fats.",
+      "Calcium": "Fortified with calcium, important for bone health and muscle function.",
+      "Vitamin E": "Contains vitamin E, which acts as an antioxidant and supports skin health."
+    }
+  },
+  {
+    "id": 100,
+    "name": "Avocado Oil",
+    "category": "Cooking Oil",
+    "benefits": {
+      "Healthy fats": "Rich in monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Vitamin E": "Good source of vitamin E, which acts as an antioxidant and supports skin health.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 101,
+    "name": "Fennel",
+    "category": "Vegetable",
+    "benefits": {
+      "Digestive health": "Contains compounds that may help relieve digestive issues such as bloating and gas.",
+      "Antioxidants": "Rich in antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Vitamins and minerals": "Contains vitamins C and K, as well as minerals like potassium and manganese."
+    }
+  },
+  {
+    "id": 102,
+    "name": "Pistachio Butter",
+    "category": "Nut Butter",
+    "benefits": {
+      "Healthy fats": "Rich in monounsaturated and polyunsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Vitamins and minerals": "Contains vitamins and minerals such as vitamin B6, potassium, and copper."
+    }
+  },
+  {
+    "id": 103,
+    "name": "Chicory Root",
+    "category": "Vegetable",
+    "benefits": {
+      "Prebiotic fiber": "High in inulin, a type of prebiotic fiber that promotes the growth of beneficial gut bacteria.",
+      "Digestive health": "May improve digestive health and relieve constipation.",
+      "Liver health": "May support liver health and detoxification processes."
+    }
+  },
+  {
+    "id": 104,
+    "name": "Chickpea Pasta",
+    "category": "Pasta",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Gluten-free": "Naturally gluten-free, making it suitable for those with gluten intolerance."
+    }
+  },
+  {
+    "id": 105,
+    "name": "Spirulina",
+    "category": "Superfood",
+    "benefits": {
+      "Protein": "High-quality source of protein, containing all essential amino acids.",
+      "Vitamins and minerals": "Rich in vitamins and minerals like iron, vitamin B12, and beta-carotene.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 106,
+    "name": "Broccoli Sprouts",
+    "category": "Sprout",
+    "benefits": {
+      "Sulforaphane": "Contains sulforaphane, a compound with potent anti-cancer properties.",
+      "Antioxidants": "Rich in antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 107,
+    "name": "Lemon",
+    "category": "Citrus Fruit",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Digestive health": "May aid in digestion and promote gut health.",
+      "Alkalizing": "Despite its acidic taste, lemon has an alkalizing effect on the body."
+    }
+  },
+  {
+    "id": 108,
+    "name": "Turmeric",
+    "category": "Spice",
+    "benefits": {
+      "Curcumin": "Contains curcumin, a compound with powerful anti-inflammatory and antioxidant properties.",
+      "Brain health": "May improve cognitive function and reduce the risk of neurodegenerative diseases.",
+      "Joint health": "May help alleviate symptoms of arthritis and joint pain."
+    }
+  },
+  {
+    "id": 109,
+    "name": "Coconut Flour",
+    "category": "Flour",
+    "benefits": {
+      "High fiber": "Rich in fiber, which aids in digestion and promotes gut health.",
+      "Gluten-free": "Naturally gluten-free, making it suitable for those with gluten intolerance.",
+      "Low glycemic index": "Has a low glycemic index, which may help stabilize blood sugar levels."
+    }
+  },
+  {
+    "id": 110,
+    "name": "Pineapple",
+    "category": "Fruit",
+    "benefits": {
+      "Digestive enzymes": "Contains bromelain, an enzyme that aids in digestion and may reduce inflammation.",
+      "Vitamin C": "Good source of vitamin C, which supports the immune system and collagen production.",
+      "Anti-inflammatory": "May help reduce inflammation and alleviate symptoms of arthritis and other inflammatory conditions."
+    }
+  },
+  {
+    "id": 111,
+    "name": "Walnuts",
+    "category": "Nuts",
+    "benefits": {
+      "Healthy fats": "Rich in polyunsaturated fats, including omega-3 fatty acids, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Antioxidants": "Contain antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Brain health": "May improve cognitive function and reduce the risk of neurodegenerative diseases."
+    }
+  },
+  {
+    "id": 112,
+    "name": "Brussels Sprouts",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins C and K, as well as folate and manganese.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 113,
+    "name": "Red Bell Pepper",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Vitamin A": "Good source of vitamin A, important for eye health and immune function.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 114,
+    "name": "Brown Rice",
+    "category": "Grain",
+    "benefits": {
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Complex carbohydrates": "Provides sustained energy due to its complex carbohydrate content.",
+      "Vitamins and minerals": "Contains vitamins and minerals like magnesium, selenium, and manganese."
+    }
+  },
+  {
+    "id": 115,
+    "name": "Olive Oil",
+    "category": "Cooking Oil",
+    "benefits": {
+      "Healthy fats": "Rich in monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Antioxidants": "Contains polyphenols, which have antioxidant properties.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 116,
+    "name": "Apple Cider Vinegar",
+    "category": "Condiment",
+    "benefits": {
+      "Blood sugar control": "May help improve insulin sensitivity and lower blood sugar levels.",
+      "Digestive health": "May aid in digestion and promote gut health.",
+      "Weight loss": "May promote weight loss by increasing feelings of fullness and reducing calorie intake."
+    }
+  },
+  {
+    "id": 117,
+    "name": "Chia Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Omega-3 fatty acids": "Rich in alpha-linolenic acid (ALA), a type of omega-3 fatty acid that supports heart health and brain function.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth."
+    }
+  },
+  {
+    "id": 118,
+    "name": "Green Tea",
+    "category": "Beverage",
+    "benefits": {
+      "Antioxidants": "Rich in catechins, which have powerful antioxidant properties.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease.",
+      "Brain health": "May improve cognitive function and reduce the risk of neurodegenerative diseases."
+    }
+  },
+  {
+    "id": 119,
+    "name": "Alfalfa",
+    "category": "Sprout",
+    "benefits": {
+      "Nutrient-rich": "Packed with vitamins and minerals like vitamin K, vitamin C, folate, and manganese.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Heart health": "May help lower cholesterol levels and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 120,
+    "name": "Kale",
+    "category": "Leafy Green",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as calcium and magnesium.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Bone health": "May support bone health and density due to its vitamin K and calcium content."
+    }
+  },
+  {
+    "id": 121,
+    "name": "Salmon",
+    "category": "Fish",
+    "benefits": {
+      "Omega-3 fatty acids": "Rich in omega-3 fatty acids, which support heart health and brain function.",
+      "Protein": "Provides a good source of protein for muscle repair and growth.",
+      "Vitamin D": "Good source of vitamin D, important for bone health and immune function."
+    }
+  },
+  {
+    "id": 122,
+    "name": "Cucumber",
+    "category": "Vegetable",
+    "benefits": {
+      "Hydration": "High water content helps with hydration and overall health.",
+      "Vitamins and minerals": "Contains vitamins K and C, as well as minerals like potassium and magnesium.",
+      "Digestive health": "May aid in digestion and promote gut health."
+    }
+  },
+  {
+    "id": 123,
+    "name": "Quinoa Flour",
+    "category": "Flour",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Vitamins and minerals": "Contains vitamins and minerals like magnesium, iron, and manganese."
+    }
+  },
+  {
+    "id": 124,
+    "name": "Oregano",
+    "category": "Herb",
+    "benefits": {
+      "Antioxidants": "Contains compounds like rosmarinic acid and thymol, which have antioxidant properties.",
+      "Anti-inflammatory": "May help reduce inflammation and alleviate symptoms of conditions like arthritis.",
+      "Digestive health": "May aid in digestion and help prevent digestive issues."
+    }
+  },
+  {
+    "id": 125,
+    "name": "Pomegranate",
+    "category": "Fruit",
+    "benefits": {
+      "Antioxidants": "Rich in antioxidants such as punicalagins and anthocyanins, which may reduce inflammation and protect against chronic diseases.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease.",
+      "Cognitive function": "May improve memory and cognitive function."
+    }
+  },
+  {
+    "id": 126,
+    "name": "Flaxseeds",
+    "category": "Seed",
+    "benefits": {
+      "Omega-3 fatty acids": "Rich in alpha-linolenic acid (ALA), a type of omega-3 fatty acid that supports heart health and brain function.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Lignans": "Contain lignans, which have antioxidant properties and may help reduce the risk of certain cancers."
+    }
+  },
+  {
+    "id": 127,
+    "name": "Soy Milk",
+    "category": "Plant-Based Milk",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Calcium": "Fortified with calcium, important for bone health and muscle function.",
+      "Isoflavones": "Contains isoflavones, which may have protective effects against certain cancers."
+    }
+  },
+  {
+    "id": 128,
+    "name": "Cauliflower",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamins and minerals": "Contains vitamins C and K, as well as folate and potassium.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Digestive health": "High in fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 129,
+    "name": "Paprika",
+    "category": "Spice",
+    "benefits": {
+      "Vitamin C": "Contains vitamin C, which supports the immune system and collagen production.",
+      "Capsaicin": "Contains capsaicin, which may help reduce appetite and boost metabolism.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 130,
+    "name": "Hemp Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Omega-3 fatty acids": "Contains a balanced ratio of omega-3 to omega-6 fatty acids, which support heart health and brain function.",
+      "Protein": "Provides a complete source of plant-based protein for muscle repair and growth.",
+      "Vitamins and minerals": "Rich in vitamins and minerals like vitamin E, magnesium, and zinc."
+    }
+  },
+  {
+    "id": 131,
+    "name": "Ginger",
+    "category": "Root",
+    "benefits": {
+      "Digestive health": "May help alleviate digestive discomfort and reduce nausea.",
+      "Anti-inflammatory": "Contains gingerol, which has potent anti-inflammatory properties.",
+      "Immune support": "May boost the immune system and help fight off infections."
+    }
+  },
+  {
+    "id": 132,
+    "name": "Sesame Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Calcium": "Rich in calcium, important for bone health and muscle function.",
+      "Healthy fats": "Contain healthy fats, including omega-6 fatty acids, which may support heart health.",
+      "Antioxidants": "Contain lignans and vitamin E, which have antioxidant properties."
+    }
+  },
+  {
+    "id": 133,
+    "name": "Mango",
+    "category": "Fruit",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Vitamin A": "Good source of vitamin A, important for eye health and immune function.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 134,
+    "name": "Tempeh",
+    "category": "Fermented Food",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Probiotics": "Contains probiotics, which support gut health and may boost the immune system.",
+      "Nutrient absorption": "May enhance nutrient absorption due to its fermentation process."
+    }
+  },
+  {
+    "id": 135,
+    "name": "Hazelnuts",
+    "category": "Nuts",
+    "benefits": {
+      "Heart health": "Contain monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Vitamin E": "Good source of vitamin E, which acts as an antioxidant and supports skin health.",
+      "Minerals": "Rich in minerals like magnesium, potassium, and copper."
+    }
+  },
+  {
+    "id": 136,
+    "name": "Coconut Milk",
+    "category": "Plant-Based Milk",
+    "benefits": {
+      "Healthy fats": "Contains medium-chain triglycerides (MCTs), which may support weight loss and brain health.",
+      "Minerals": "Rich in minerals like manganese, copper, and iron.",
+      "Vitamins": "Contains vitamins C, E, and B vitamins."
+    }
+  },
+  {
+    "id": 137,
+    "name": "Cinnamon",
+    "category": "Spice",
+    "benefits": {
+      "Blood sugar control": "May help lower blood sugar levels and improve insulin sensitivity.",
+      "Antioxidants": "Contains polyphenols, which have antioxidant properties.",
+      "Anti-inflammatory": "May help reduce inflammation and lower the risk of chronic diseases."
+    }
+  },
+  {
+    "id": 138,
+    "name": "Tofu",
+    "category": "Soy Product",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Calcium": "Good source of calcium, important for bone health and muscle function.",
+      "Isoflavones": "Contains isoflavones, which may have protective effects against certain cancers."
+    }
+  },
+  {
+    "id": 139,
+    "name": "Peanuts",
+    "category": "Nuts",
+    "benefits": {
+      "Heart health": "Rich in monounsaturated and polyunsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Vitamins and minerals": "Contain vitamins E and B vitamins, as well as minerals like magnesium and potassium."
+    }
+  },
+  {
+    "id": 140,
+    "name": "Chickpeas",
+    "category": "Legume",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Iron": "Good source of iron, important for oxygen transport in the body."
+    }
+  },
+  {
+    "id": 141,
+    "name": "Soy Sauce",
+    "category": "Condiment",
+    "benefits": {
+      "Umami flavor": "Adds a savory umami flavor to dishes.",
+      "Fermented": "Contains beneficial probiotics due to its fermentation process.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 142,
+    "name": "Green Lentils",
+    "category": "Legume",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Folate": "Good source of folate, important for cell growth and DNA synthesis."
+    }
+  },
+  {
+    "id": 143,
+    "name": "Bok Choy",
+    "category": "Leafy Green",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as calcium and magnesium.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Bone health": "May support bone health and density due to its vitamin K and calcium content."
+    }
+  },
+  {
+    "id": 144,
+    "name": "Tahini",
+    "category": "Seed Butter",
+    "benefits": {
+      "Healthy fats": "Contains monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Minerals": "Rich in minerals like calcium, iron, and magnesium."
+    }
+  },
+  {
+    "id": 145,
+    "name": "Red Lentils",
+    "category": "Legume",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Iron": "Good source of iron, important for oxygen transport in the body."
+    }
+  },
+  {
+    "id": 146,
+    "name": "Miso",
+    "category": "Fermented Food",
+    "benefits": {
+      "Probiotics": "Contains probiotics, which support gut health and may boost the immune system.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Vitamins and minerals": "Rich in vitamins B2, B6, and B12, as well as minerals like zinc and copper."
+    }
+  },
+  {
+    "id": 147,
+    "name": "Pumpkin Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Magnesium": "Rich in magnesium, important for bone health and muscle function.",
+      "Healthy fats": "Contain monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth."
+    }
+  },
+  {
+    "id": 148,
+    "name": "Saffron",
+    "category": "Spice",
+    "benefits": {
+      "Antioxidants": "Contains compounds like crocin and safranal, which have antioxidant properties.",
+      "Mood enhancement": "May improve mood and reduce symptoms of depression.",
+      "Anti-inflammatory": "May help reduce inflammation and alleviate symptoms of conditions like arthritis."
+    }
+  },
+  {
+    "id": 149,
+    "name": "Cashews",
+    "category": "Nuts",
+    "benefits": {
+      "Heart health": "Contain monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Minerals": "Rich in minerals like magnesium, copper, and phosphorus.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth."
+    }
+  },
+  {
+    "id": 150,
+    "name": "Balsamic Vinegar",
+    "category": "Condiment",
+    "benefits": {
+      "Antioxidants": "Contains polyphenols, which have antioxidant properties.",
+      "Blood sugar control": "May help improve insulin sensitivity and lower blood sugar levels.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 151,
+    "name": "Black Beans",
+    "category": "Legume",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Iron": "Good source of iron, important for oxygen transport in the body."
+    }
+  },
+  {
+    "id": 152,
+    "name": "Chia Flour",
+    "category": "Flour",
+    "benefits": {
+      "Omega-3 fatty acids": "Rich in alpha-linolenic acid (ALA), a type of omega-3 fatty acid that supports heart health and brain function.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth."
+    }
+  },
+  {
+    "id": 153,
+    "name": "Beetroot",
+    "category": "Root Vegetable",
+    "benefits": {
+      "Nitric oxide": "Contains nitrate, which may improve blood flow and lower blood pressure.",
+      "Antioxidants": "Rich in antioxidants like betalains, which may reduce inflammation and protect against chronic diseases.",
+      "Digestive health": "High in fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 154,
+    "name": "Edamame",
+    "category": "Legume",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Isoflavones": "Contains isoflavones, which may have protective effects against certain cancers."
+    }
+  },
+  {
+    "id": 155,
+    "name": "Sunflower Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Vitamin E": "Rich in vitamin E, which acts as an antioxidant and supports skin health.",
+      "Healthy fats": "Contain healthy fats, including monounsaturated and polyunsaturated fats, which may support heart health.",
+      "Minerals": "Rich in minerals like magnesium, selenium, and copper."
+    }
+  },
+  {
+    "id": 156,
+    "name": "Arugula",
+    "category": "Leafy Green",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as calcium and magnesium.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Liver health": "May support liver health and detoxification processes."
+    }
+  },
+  {
+    "id": 157,
+    "name": "Soba Noodles",
+    "category": "Noodles",
+    "benefits": {
+      "Complex carbohydrates": "Provides sustained energy due to its complex carbohydrate content.",
+      "Protein": "Contains protein, albeit in smaller amounts compared to other sources.",
+      "Buckwheat": "Made from buckwheat, which is gluten-free and may have health benefits like improved heart health."
+    }
+  },
+  {
+    "id": 158,
+    "name": "Cacao Nibs",
+    "category": "Cacao Product",
+    "benefits": {
+      "Antioxidants": "Rich in antioxidants like flavonoids, which may reduce inflammation and protect against chronic diseases.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease.",
+      "Mood enhancement": "Contains compounds that may boost mood and reduce symptoms of depression."
+    }
+  },
+  {
+    "id": 159,
+    "name": "Artichoke",
+    "category": "Vegetable",
+    "benefits": {
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Liver health": "May support liver health and promote detoxification processes.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 160,
+    "name": "Brown Lentils",
+    "category": "Legume",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Folate": "Good source of folate, important for cell growth and DNA synthesis."
+    }
+  },
+  {
+    "id": 161,
+    "name": "Sesame Oil",
+    "category": "Cooking Oil",
+    "benefits": {
+      "Healthy fats": "Rich in monounsaturated and polyunsaturated fats, which may support heart health.",
+      "Antioxidants": "Contains sesamol and sesaminol, which have antioxidant properties.",
+      "Vitamin E": "Good source of vitamin E, which acts as an antioxidant and supports skin health."
+    }
+  },
+  {
+    "id": 162,
+    "name": "Tamarind",
+    "category": "Fruit",
+    "benefits": {
+      "Antioxidants": "Contains polyphenols and flavonoids, which have antioxidant properties.",
+      "Digestive health": "May aid in digestion and alleviate digestive issues.",
+      "Anti-inflammatory": "May help reduce inflammation and alleviate symptoms of conditions like arthritis."
+    }
+  },
+  {
+    "id": 163,
+    "name": "Radish",
+    "category": "Vegetable",
+    "benefits": {
+      "Vitamins and minerals": "Contains vitamins C and K, as well as potassium and folate.",
+      "Digestive health": "May aid in digestion and promote gut health.",
+      "Detoxification": "Contains compounds that may support liver health and detoxification processes."
+    }
+  },
+  {
+    "id": 164,
+    "name": "Cornmeal",
+    "category": "Grain",
+    "benefits": {
+      "Fiber": "Contains fiber, which aids in digestion and promotes gut health.",
+      "Vitamins and minerals": "Contains vitamins like niacin and minerals like magnesium and phosphorus.",
+      "Gluten-free": "Naturally gluten-free, making it suitable for those with gluten intolerance."
+    }
+  },
+  {
+    "id": 165,
+    "name": "Dill",
+    "category": "Herb",
+    "benefits": {
+      "Digestive health": "May aid in digestion and alleviate digestive issues.",
+      "Antioxidants": "Contains flavonoids and polyphenols, which have antioxidant properties.",
+      "Bone health": "Contains calcium and vitamin K, which are important for bone health."
+    }
+  },
+  {
+    "id": 166,
+    "name": "Spelt Flour",
+    "category": "Flour",
+    "benefits": {
+      "Complex carbohydrates": "Provides sustained energy due to its complex carbohydrate content.",
+      "Protein": "Contains protein, which is important for muscle repair and growth.",
+      "Vitamins and minerals": "Contains vitamins and minerals like iron, magnesium, and zinc."
+    }
+  },
+  {
+    "id": 167,
+    "name": "Molasses",
+    "category": "Sweetener",
+    "benefits": {
+      "Iron": "Contains iron, which is important for oxygen transport in the body.",
+      "Calcium": "Contains calcium, important for bone health and muscle function.",
+      "Antioxidants": "Contains antioxidants like polyphenols, which may reduce inflammation and protect against chronic diseases."
+    }
+  },
+  {
+    "id": 168,
+    "name": "Shiitake Mushrooms",
+    "category": "Mushroom",
+    "benefits": {
+      "Immune support": "Contains compounds like beta-glucans, which may boost the immune system.",
+      "Antioxidants": "Contains ergothioneine and other antioxidants, which may reduce inflammation and protect against chronic diseases.",
+      "Vitamins and minerals": "Rich in vitamins like B vitamins and minerals like selenium and copper."
+    }
+  },
+  {
+    "id": 169,
+    "name": "Tahini",
+    "category": "Seed Butter",
+    "benefits": {
+      "Healthy fats": "Contains monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Minerals": "Rich in minerals like calcium, iron, and magnesium."
+    }
+  },
+  {
+    "id": 170,
+    "name": "Amaranth Flour",
+    "category": "Flour",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Vitamins and minerals": "Contains vitamins like B vitamins and minerals like iron and magnesium."
+    }
+  },
+  {
+    "id": 171,
+    "name": "Rosemary",
+    "category": "Herb",
+    "benefits": {
+      "Antioxidants": "Contains carnosic acid and rosmarinic acid, which have antioxidant properties.",
+      "Brain health": "May improve cognitive function and memory.",
+      "Anti-inflammatory": "May help reduce inflammation and alleviate symptoms of conditions like arthritis."
+    }
+  },
+  {
+    "id": 172,
+    "name": "Cantaloupe",
+    "category": "Fruit",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Vitamin A": "Good source of vitamin A, important for eye health and immune function.",
+      "Hydration": "High water content helps with hydration and overall health."
+    }
+  },
+  {
+    "id": 173,
+    "name": "Barley",
+    "category": "Grain",
+    "benefits": {
+      "Fiber": "Contains soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Vitamins and minerals": "Contains vitamins like B vitamins and minerals like selenium and manganese.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 174,
+    "name": "White Beans",
+    "category": "Legume",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Iron": "Good source of iron, important for oxygen transport in the body."
+    }
+  },
+  {
+    "id": 175,
+    "name": "Apricot",
+    "category": "Fruit",
+    "benefits": {
+      "Vitamin A": "Good source of vitamin A, important for eye health and immune function.",
+      "Vitamin C": "Contains vitamin C, which supports the immune system and collagen production.",
+      "Fiber": "Contains fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 176,
+    "name": "Rye Flour",
+    "category": "Flour",
+    "benefits": {
+      "Fiber": "Contains soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Vitamins and minerals": "Contains vitamins like B vitamins and minerals like iron and magnesium.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 177,
+    "name": "Macadamia Nuts",
+    "category": "Nuts",
+    "benefits": {
+      "Healthy fats": "Rich in monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Antioxidants": "Contain flavonoids and tocotrienols, which have antioxidant properties.",
+      "Vitamins and minerals": "Contain vitamins like vitamin A and minerals like magnesium and iron."
+    }
+  },
+  {
+    "id": 178,
+    "name": "Cumin",
+    "category": "Spice",
+    "benefits": {
+      "Digestive health": "May aid in digestion and alleviate digestive discomfort.",
+      "Antioxidants": "Contains flavonoids and phenolic compounds, which have antioxidant properties.",
+      "Immune support": "May boost the immune system and help fight off infections."
+    }
+  },
+  {
+    "id": 179,
+    "name": "Jicama",
+    "category": "Root Vegetable",
+    "benefits": {
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Vitamin C": "Contains vitamin C, which supports the immune system and collagen production.",
+      "Low calorie": "Low in calories but high in nutrients, making it a healthy snack option."
+    }
+  },
+  {
+    "id": 180,
+    "name": "Buckwheat Flour",
+    "category": "Flour",
+    "benefits": {
+      "Gluten-free": "Naturally gluten-free, making it suitable for those with gluten intolerance.",
+      "Protein": "Contains protein, which is important for muscle repair and growth.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 181,
+    "name": "Cayenne Pepper",
+    "category": "Spice",
+    "benefits": {
+      "Capsaicin": "Contains capsaicin, which may help boost metabolism and reduce appetite.",
+      "Pain relief": "May help alleviate pain and reduce inflammation.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 182,
+    "name": "Mulberries",
+    "category": "Berry",
+    "benefits": {
+      "Antioxidants": "Contain anthocyanins and resveratrol, which have antioxidant properties.",
+      "Vitamin C": "Contains vitamin C, which supports the immune system and collagen production.",
+      "Digestive health": "May aid in digestion and promote gut health."
+    }
+  },
+  {
+    "id": 183,
+    "name": "Aloe Vera",
+    "category": "Plant",
+    "benefits": {
+      "Skin health": "May promote wound healing and alleviate skin conditions like psoriasis and acne.",
+      "Digestive health": "May help alleviate digestive issues like constipation and irritable bowel syndrome (IBS).",
+      "Anti-inflammatory": "Contains compounds like acemannan, which have anti-inflammatory properties."
+    }
+  },
+  {
+    "id": 184,
+    "name": "Tarragon",
+    "category": "Herb",
+    "benefits": {
+      "Digestive health": "May aid in digestion and alleviate digestive issues like bloating and gas.",
+      "Antioxidants": "Contains compounds like polyphenols and flavonoids, which have antioxidant properties.",
+      "Bone health": "Contains minerals like calcium and magnesium, which are important for bone health."
+    }
+  },
+  {
+    "id": 185,
+    "name": "Passion Fruit",
+    "category": "Fruit",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Fiber": "Contains fiber, which aids in digestion and promotes gut health.",
+      "Antioxidants": "Contains flavonoids and carotenoids, which have antioxidant properties."
+    }
+  },
+  {
+    "id": 186,
+    "name": "Pistachios",
+    "category": "Nuts",
+    "benefits": {
+      "Heart health": "Contains monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Vitamins and minerals": "Contains vitamins like vitamin B6 and minerals like potassium and manganese."
+    }
+  },
+  {
+    "id": 187,
+    "name": "Sage",
+    "category": "Herb",
+    "benefits": {
+      "Antioxidants": "Contains rosmarinic acid and other polyphenols, which have antioxidant properties.",
+      "Memory enhancement": "May improve memory and cognitive function.",
+      "Anti-inflammatory": "May help reduce inflammation and alleviate symptoms of conditions like arthritis."
+    }
+  },
+  {
+    "id": 188,
+    "name": "Watercress",
+    "category": "Leafy Green",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as calcium and manganese.",
+      "Antioxidants": "Contains antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Liver health": "May support liver health and detoxification processes."
+    }
+  },
+  {
+    "id": 189,
+    "name": "Fennel",
+    "category": "Vegetable",
+    "benefits": {
+      "Digestive health": "May aid in digestion and alleviate digestive issues like bloating and gas.",
+      "Antioxidants": "Contains flavonoids and polyphenols, which have antioxidant properties.",
+      "Heart health": "May help lower cholesterol levels and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 190,
+    "name": "Dandelion Greens",
+    "category": "Leafy Green",
+    "benefits": {
+      "Liver health": "May support liver health and promote detoxification processes.",
+      "Digestive health": "May aid in digestion and alleviate digestive issues.",
+      "Antioxidants": "Contains flavonoids and carotenoids, which have antioxidant properties."
+    }
+  },
+  {
+    "id": 191,
+    "name": "Basil",
+    "category": "Herb",
+    "benefits": {
+      "Antioxidants": "Contains flavonoids like orientin and vicenin, which have antioxidant properties.",
+      "Anti-inflammatory": "May help reduce inflammation and alleviate symptoms of conditions like arthritis.",
+      "Cardiovascular health": "May support cardiovascular health and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 192,
+    "name": "Cacao Powder",
+    "category": "Cacao Product",
+    "benefits": {
+      "Antioxidants": "Rich in flavonoids and polyphenols, which have antioxidant properties.",
+      "Mood enhancement": "Contains compounds like theobromine and phenylethylamine, which may improve mood.",
+      "Heart health": "May improve heart health and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 193,
+    "name": "Rutabaga",
+    "category": "Root Vegetable",
+    "benefits": {
+      "Vitamins and minerals": "Contains vitamins like vitamin C and minerals like potassium and manganese.",
+      "Digestive health": "High in fiber, which aids in digestion and promotes gut health.",
+      "Antioxidants": "Contains compounds like glucosinolates, which have antioxidant properties."
+    }
+  },
+  {
+    "id": 194,
+    "name": "Arrowroot Flour",
+    "category": "Flour",
+    "benefits": {
+      "Gluten-free": "Naturally gluten-free, making it suitable for those with gluten intolerance.",
+      "Digestive health": "May soothe digestive discomfort and promote gut health.",
+      "Minerals": "Contains minerals like potassium, iron, and magnesium."
+    }
+  },
+  {
+    "id": 195,
+    "name": "Persimmon",
+    "category": "Fruit",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Antioxidants": "Contains flavonoids and carotenoids, which have antioxidant properties.",
+      "Digestive health": "Contains soluble fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 196,
+    "name": "Chicory",
+    "category": "Vegetable",
+    "benefits": {
+      "Digestive health": "May aid in digestion and promote gut health.",
+      "Liver health": "May support liver health and promote detoxification processes.",
+      "Antioxidants": "Contains compounds like polyphenols, which have antioxidant properties."
+    }
+  },
+  {
+    "id": 197,
+    "name": "Pine Nuts",
+    "category": "Nuts",
+    "benefits": {
+      "Heart health": "Contain monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Vitamins and minerals": "Contain vitamins like vitamin E and minerals like magnesium and zinc."
+    }
+  },
+  {
+    "id": 198,
+    "name": "Ginseng",
+    "category": "Herb",
+    "benefits": {
+      "Energy boost": "May increase energy levels and reduce fatigue.",
+      "Cognitive function": "May improve cognitive function and memory.",
+      "Immune support": "May boost the immune system and help fight off infections."
+    }
+  },
+  {
+    "id": 199,
+    "name": "Quinoa Flour",
+    "category": "Flour",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Minerals": "Contains minerals like magnesium, iron, and zinc."
+    }
+  },
+  {
+    "id": 200,
+    "name": "Capers",
+    "category": "Condiment",
+    "benefits": {
+      "Antioxidants": "Contains quercetin and rutin, which have antioxidant properties.",
+      "Heart health": "May help lower cholesterol levels and reduce the risk of heart disease.",
+      "Digestive health": "May aid in digestion and alleviate digestive issues."
+    }
+  },
+  {
+    "id": 201,
+    "name": "Chicory Root",
+    "category": "Root Vegetable",
+    "benefits": {
+      "Prebiotic": "Contains inulin, a prebiotic fiber that feeds beneficial gut bacteria.",
+      "Digestive health": "May aid in digestion and alleviate digestive issues like bloating and gas.",
+      "Liver health": "May support liver health and promote detoxification processes."
+    }
+  },
+  {
+    "id": 202,
+    "name": "Spirulina",
+    "category": "Algae",
+    "benefits": {
+      "Protein": "High in protein and essential amino acids, making it a complete protein source.",
+      "Antioxidants": "Contains phycocyanin, chlorophyll, and other antioxidants.",
+      "Immune support": "May boost the immune system and help fight off infections."
+    }
+  },
+  {
+    "id": 203,
+    "name": "Molokhia",
+    "category": "Leafy Green",
+    "benefits": {
+      "Iron": "Rich in iron, important for oxygen transport in the body.",
+      "Vitamins and minerals": "Contains vitamins A, C, and B vitamins, as well as calcium and magnesium.",
+      "Digestive health": "High in fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 204,
+    "name": "Soy Milk",
+    "category": "Plant-Based Milk",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Calcium": "Fortified with calcium, important for bone health and muscle function.",
+      "Vitamins": "Fortified with vitamins like vitamin D and vitamin B12."
+    }
+  },
+  {
+    "id": 205,
+    "name": "Kale",
+    "category": "Leafy Green",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as calcium and magnesium.",
+      "Antioxidants": "Contains flavonoids and carotenoids, which have antioxidant properties.",
+      "Heart health": "May help lower cholesterol levels and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 206,
+    "name": "Tofu Skin",
+    "category": "Soy Product",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Iron": "Contains iron, important for oxygen transport in the body.",
+      "Calcium": "Good source of calcium, important for bone health and muscle function."
+    }
+  },
+  {
+    "id": 207,
+    "name": "Almond Butter",
+    "category": "Nut Butter",
+    "benefits": {
+      "Healthy fats": "Contains monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Vitamins and minerals": "Contains vitamin E, magnesium, and other minerals."
+    }
+  },
+  {
+    "id": 208,
+    "name": "Wheat Germ",
+    "category": "Grain",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins like vitamin E, B vitamins, and minerals like zinc and magnesium.",
+      "Antioxidants": "Contains antioxidants like phytosterols and policosanols.",
+      "Digestive health": "Contains fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 209,
+    "name": "Wasabi",
+    "category": "Condiment",
+    "benefits": {
+      "Antimicrobial": "Contains compounds like allyl isothiocyanate, which have antimicrobial properties.",
+      "Digestive health": "May aid in digestion and alleviate digestive issues.",
+      "Anti-inflammatory": "May help reduce inflammation and alleviate symptoms of conditions like arthritis."
+    }
+  },
+  {
+    "id": 210,
+    "name": "Papaya",
+    "category": "Fruit",
+    "benefits": {
+      "Digestive enzymes": "Contains enzymes like papain, which aid in digestion and may alleviate digestive issues.",
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Antioxidants": "Contains flavonoids and carotenoids, which have antioxidant properties."
+    }
+  },
+  {
+    "id": 211,
+    "name": "Hemp Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Omega-3 fatty acids": "Rich in omega-3 fatty acids, which support heart health and brain function.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Minerals": "Contains minerals like magnesium, iron, and zinc."
+    }
+  },
+  {
+    "id": 212,
+    "name": "Chlorella",
+    "category": "Algae",
+    "benefits": {
+      "Detoxification": "May support detoxification processes in the body, including heavy metal detoxification.",
+      "Immune support": "Contains compounds that may boost the immune system.",
+      "Antioxidants": "Contains chlorophyll and other antioxidants."
+    }
+  },
+  {
+    "id": 213,
+    "name": "Star Fruit",
+    "category": "Fruit",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Dietary fiber": "Contains fiber, which aids in digestion and promotes gut health.",
+      "Antioxidants": "Contains flavonoids and polyphenols, which have antioxidant properties."
+    }
+  },
+  {
+    "id": 214,
+    "name": "Lingonberries",
+    "category": "Berry",
+    "benefits": {
+      "Antioxidants": "Rich in antioxidants like flavonoids and phenolic acids.",
+      "Urinary tract health": "May help prevent urinary tract infections due to its anti-adhesive properties.",
+      "Heart health": "May support heart health and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 215,
+    "name": "Hazelnuts",
+    "category": "Nuts",
+    "benefits": {
+      "Heart health": "Contain monounsaturated fats, which may lower bad cholesterol levels and reduce the risk of heart disease.",
+      "Vitamin E": "Rich in vitamin E, which acts as an antioxidant and supports skin health.",
+      "Minerals": "Contain minerals like magnesium, copper, and manganese."
+    }
+  },
+  {
+    "id": 216,
+    "name": "Sacha Inchi Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Omega-3 fatty acids": "Rich in omega-3 fatty acids, which support heart health and brain function.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Antioxidants": "Contains vitamin E and other antioxidants."
+    }
+  },
+  {
+    "id": 217,
+    "name": "Moringa",
+    "category": "Leafy Green",
+    "benefits": {
+      "Nutrient-dense": "Rich in vitamins, minerals, and antioxidants.",
+      "Anti-inflammatory": "Contains compounds like isothiocyanates, which have anti-inflammatory properties.",
+      "Blood sugar control": "May help regulate blood sugar levels."
+    }
+  },
+  {
+    "id": 218,
+    "name": "Goji Berries",
+    "category": "Berry",
+    "benefits": {
+      "Antioxidants": "Rich in antioxidants like beta-carotene, zeaxanthin, and polysaccharides.",
+      "Immune support": "May boost the immune system and help fight off infections.",
+      "Eye health": "Contains compounds that may promote eye health and protect against age-related macular degeneration."
+    }
+  },
+  {
+    "id": 219,
+    "name": "Black Rice",
+    "category": "Grain",
+    "benefits": {
+      "Antioxidants": "Contains anthocyanins, which have antioxidant properties.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Minerals": "Rich in minerals like iron and zinc."
+    }
+  },
+  {
+    "id": 220,
+    "name": "Pumpkin Puree",
+    "category": "Vegetable",
+    "benefits": {
+      "Beta-carotene": "High in beta-carotene, which is converted into vitamin A in the body and supports eye health.",
+      "Fiber": "Contains fiber, which aids in digestion and promotes gut health.",
+      "Vitamins and minerals": "Contains vitamins like vitamin C and minerals like potassium and magnesium."
+    }
+  },
+  {
+    "id": 221,
+    "name": "Açaí Berries",
+    "category": "Berry",
+    "benefits": {
+      "Antioxidants": "Rich in antioxidants like anthocyanins and flavonoids.",
+      "Heart health": "May help lower cholesterol levels and reduce the risk of heart disease.",
+      "Energy boost": "May increase energy levels and reduce fatigue."
+    }
+  },
+  {
+    "id": 222,
+    "name": "Oat Milk",
+    "category": "Plant-Based Milk",
+    "benefits": {
+      "Beta-glucans": "Contains beta-glucans, a type of soluble fiber that may help lower cholesterol levels.",
+      "Vitamins and minerals": "Fortified with vitamins like vitamin D and minerals like calcium and iron.",
+      "Heart health": "May support heart health and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 223,
+    "name": "Chicory Greens",
+    "category": "Leafy Green",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as calcium and magnesium.",
+      "Digestive health": "May aid in digestion and promote gut health.",
+      "Liver health": "May support liver health and detoxification processes."
+    }
+  },
+  {
+    "id": 224,
+    "name": "Sunflower Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Healthy fats": "Contain monounsaturated and polyunsaturated fats, which may support heart health.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Vitamins and minerals": "Rich in vitamins like vitamin E and minerals like magnesium and selenium."
+    }
+  },
+  {
+    "id": 225,
+    "name": "Chia Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Omega-3 fatty acids": "Rich in omega-3 fatty acids, which support heart health and brain function.",
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth."
+    }
+  },
+  {
+    "id": 226,
+    "name": "Mulberry Leaves",
+    "category": "Leaf",
+    "benefits": {
+      "Blood sugar control": "May help regulate blood sugar levels and improve insulin sensitivity.",
+      "Antioxidants": "Contains flavonoids and quercetin, which have antioxidant properties.",
+      "Heart health": "May support heart health and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 227,
+    "name": "Chickpea Flour",
+    "category": "Flour",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Vitamins and minerals": "Contains vitamins like vitamin B6 and minerals like iron and magnesium."
+    }
+  },
+  {
+    "id": 228,
+    "name": "Arugula",
+    "category": "Leafy Green",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as calcium and potassium.",
+      "Antioxidants": "Contains compounds like glucosinolates and polyphenols, which have antioxidant properties.",
+      "Bone health": "Contains vitamin K, important for bone health and blood clotting."
+    }
+  },
+  {
+    "id": 229,
+    "name": "Walnut Oil",
+    "category": "Oil",
+    "benefits": {
+      "Omega-3 fatty acids": "Contains alpha-linolenic acid (ALA), a type of omega-3 fatty acid.",
+      "Antioxidants": "Contains vitamin E and polyphenols, which have antioxidant properties.",
+      "Heart health": "May help lower cholesterol levels and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 230,
+    "name": "Amaranth",
+    "category": "Grain",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health.",
+      "Vitamins and minerals": "Contains vitamins like B vitamins and minerals like iron and magnesium."
+    }
+  },
+  {
+    "id": 231,
+    "name": "Cherimoya",
+    "category": "Fruit",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Fiber": "Contains fiber, which aids in digestion and promotes gut health.",
+      "Potassium": "Good source of potassium, important for heart health and muscle function."
+    }
+  },
+  {
+    "id": 232,
+    "name": "Black Sesame Seeds",
+    "category": "Seed",
+    "benefits": {
+      "Antioxidants": "Contains sesamin and sesamolin, which have antioxidant properties.",
+      "Calcium": "Rich in calcium, important for bone health and muscle function.",
+      "Heart health": "May help lower cholesterol levels and reduce the risk of heart disease."
+    }
+  },
+  {
+    "id": 233,
+    "name": "Okra",
+    "category": "Vegetable",
+    "benefits": {
+      "Fiber": "High in soluble fiber, which aids in digestion and may help lower cholesterol levels.",
+      "Vitamin C": "Contains vitamin C, which supports the immune system and collagen production.",
+      "Vitamin K": "Good source of vitamin K, important for bone health and blood clotting."
+    }
+  },
+  {
+    "id": 234,
+    "name": "Saffron",
+    "category": "Spice",
+    "benefits": {
+      "Antioxidants": "Contains compounds like crocin and safranal, which have antioxidant properties.",
+      "Mood enhancement": "May have antidepressant effects and improve mood.",
+      "Eye health": "May improve vision and protect against age-related macular degeneration."
+    }
+  },
+  {
+    "id": 235,
+    "name": "Teff Flour",
+    "category": "Flour",
+    "benefits": {
+      "Gluten-free": "Naturally gluten-free, making it suitable for those with gluten intolerance.",
+      "Iron": "Contains iron, important for oxygen transport in the body.",
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth."
+    }
+  },
+  {
+    "id": 236,
+    "name": "Kiwi",
+    "category": "Fruit",
+    "benefits": {
+      "Vitamin C": "High in vitamin C, which supports the immune system and collagen production.",
+      "Vitamin K": "Contains vitamin K, important for bone health and blood clotting.",
+      "Fiber": "Contains fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
+    "id": 237,
+    "name": "Fonio",
+    "category": "Grain",
+    "benefits": {
+      "Protein": "Provides a good source of plant-based protein for muscle repair and growth.",
+      "Iron": "Rich in iron, important for oxygen transport in the body.",
+      "Digestive health": "High in fiber, which aids in digestion and promotes gut health."
+    }
+  }
+]

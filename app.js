@@ -1,3 +1,4 @@
+//app.js - this file is where we instantiate the Express app, and organize the order in which the middleware and the routes are called. Any additional route files we add should be connected to app.js here.
 // ℹ️ Gets access to environment variables/settings
 // https://www.npmjs.com/package/dotenv
 require("dotenv").config();

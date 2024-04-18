@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Rash",
+    "category": "Skin Reactions",
+    "impact": "Negative"
+  },
+  {
+    "name": "Pimples",
+    "category": "Skin Reactions",
+    "impact": "Negative"
+  },
+  {
+    "name": "Eczema",
+    "category": "Skin Reactions",
+    "impact": "Negative"
+  },
+  {
+    "name": "Dry skin",
+    "category": "Skin Reactions",
+    "impact": "Negative"
+  },
+  {
+    "name": "Energetic",
+    "category": "Energy",
+    "impact": "Positive"
+  },
+  {
+    "name": "OK",
+    "category": "Energy",
+    "impact": "Positive"
+  },
+  {
+    "name": "Tired",
+    "category": "Energy",
+    "impact": "Negative"
+  },
+  {
+    "name": "No energy",
+    "category": "Energy",
+    "impact": "Negative"
+  },
+  {
+    "name": "Bloated",
+    "category": "Illness",
+    "impact": "Negative"
+  },
+  {
+    "name": "Abdominal pain",
+    "category": "Illness",
+    "impact": "Negative"
+  },
+  {
+    "name": "Cramps",
+    "category": "Illness",
+    "impact": "Negative"
+  },
+  {
+    "name": "Nausea",
+    "category": "Illness",
+    "impact": "Negative"
+  },
+  {
+    "name": "Vomiting",
+    "category": "Illness",
+    "impact": "Negative"
+  },
+  {
+    "name": "Diarrhea",
+    "category": "Illness",
+    "impact": "Negative"
+  },
+  {
+    "name": "Headache",
+    "category": "Illness",
+    "impact": "Negative"
+  },
+  {
+    "name": "Asthma",
+    "category": "Illness",
+    "impact": "Negative"
+  }
+]

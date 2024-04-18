@@ -1,3 +1,5 @@
+// config/index.js - the file where the basic configuration of the app is. Any additional middleware needed for setup should be set here.
+
 // We reuse this import in order to have access to the `body` property in requests
 const express = require("express");
 
@@ -13,7 +15,7 @@ const cookieParser = require("cookie-parser");
 // unless the request if from the same domain, by default express wont accept POST requests
 const cors = require("cors");
 
-const FRONTEND_URL = process.env.ORIGIN || "http://localhost:3000";
+const FRONTEND_URL = process.env.ORIGIN || "http://localhost:5173";
 
 // Middleware configuration
 module.exports = (app) => {

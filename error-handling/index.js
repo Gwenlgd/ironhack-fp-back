@@ -1,3 +1,5 @@
+// error-handling/index.js - Contains routes for error handling, specifically for status code 404 and 500 errors.
+
 module.exports = (app) => {
   app.use((req, res, next) => {
     // this middleware runs whenever requested page is not available
