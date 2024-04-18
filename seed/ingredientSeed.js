@@ -1,7 +1,7 @@
 require('dotenv').config({ path: "./../.env" })
 require("../db/index.js")
 const dataIngredients = require("../db/ingredientsdata.json")
-const ingredients = require("../models/Ingredient.model.js")
+const Ingredient = require("../models/Ingredient.model.js")
 
 dataIngredients.forEach(ingredient => {
   const matrice = Object.entries(ingredient.benefits)
@@ -14,12 +14,11 @@ dataIngredients.forEach(ingredient => {
   delete ingredient.id
 })
 
-console.log(dataIngredients[0])
-
 async function seed() {
   try {
-    await ingredients.deleteMany()
-    await ingredients.create(dataIngredients)
+    await Ingredient.deleteMany()
+    const createdIngredients = await Ingredient.create(dataIngredients)
+    console.log(`${createdIngredients.length} ingredients created`);
 
   } catch (error) {
     console.log(error)

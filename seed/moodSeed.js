@@ -1,12 +1,13 @@
 require('dotenv').config({ path: "./../.env" })
 require("../db/index.js")
 const dataMoods = require("../db/moodsdata.json")
-const moods = require("../models/Mood.model.js")
+const Mood = require("../models/Mood.model.js")
 
 async function seed() {
   try {
-    await moods.deleteMany()
-    await moods.create(dataMoods)
+    await Mood.deleteMany()
+    const createdMoods = await Mood.create(dataMoods)
+    console.log(`${createdMoods.length} moods created`);
 
   } catch (error) {
     console.log(error)
