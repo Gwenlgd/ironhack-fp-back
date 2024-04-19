@@ -21,6 +21,44 @@ const FRONTEND_URL = process.env.ORIGIN || "http://localhost:5173";
 module.exports = (app) => {
   // Because this is a server that will accept requests from outside and it will be hosted ona server with a `proxy`, express needs to know that it should trust that setting.
   // Services like heroku use something called a proxy and you need to add this to your server
+
+  // const passport = require("passport")
+  // const GithubStrategy = require("passport-github2").Strategy
+
+  // passport.use(
+  //   new GithubStrategy(
+  //     {
+  //       clientID: process.env.GITHUB_CLIENT_ID,
+  //       clientSecret: process.env.GITHUB_CLIENT_SECRET,
+  //       callbackURL: process.env.PASSPORT_GITHUB_CB,
+  //       passReqToCallback: true,
+  //     },
+  //     async function (req, accessToken, refreshToken, profile, done) {
+  //       console.log("In the callback of GH strategy")
+  //       console.log(profile)
+  //       console.log(accessToken)
+  //       console.log(refreshToken)
+  //       try {
+  //         const foundUser = await User.findOne({ githubId: profile.id })
+  //         if (foundUser) {
+  //           return done(null, foundUser)
+  //         } else {
+  //           const user = await User.create({
+  //             email: profile.email || "no-email-found",
+  //             // username: profile.username,
+  //             avatar: profile._json.avatar_url,
+  //             githubId: profile._json.id,
+  //           })
+  //           req.user = user
+  //           return done(null, user)
+  //         }
+  //       } catch (error) {
+  //         done(error, null)
+  //       }
+  //     }
+  //   )
+  // )
+
   app.set("trust proxy", 1);
 
   // controls a very specific header to pass headers from the frontend
@@ -38,3 +76,8 @@ module.exports = (app) => {
   app.use(express.urlencoded({ extended: false }));
   app.use(cookieParser());
 };
+
+function log(req, res, next) {
+  console.log("hello")
+  next()
+}

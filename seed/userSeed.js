@@ -1,8 +1,11 @@
 require('dotenv').config({ path: "./../.env" })
 require("../db/index.js")
+const bcrypt = require("bcryptjs")
 const User = require("../models/User.model.js")
+const SALT = 12
 
-const password = "123";
+// change
+const password = bcrypt.hashSync("1234", SALT);
 
 const users = [
   {

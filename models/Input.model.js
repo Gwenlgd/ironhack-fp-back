@@ -5,18 +5,18 @@ const inputSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: "User",
   },
-  ingredient: {
+  ingredient: [{
     type: Schema.Types.ObjectId,
     ref: "Ingredient",
-  },
-  mood: {
+  }],
+  mood: [{
     type: Schema.Types.ObjectId,
     ref: "Mood",
-  },
-  symptom: {
+  }],
+  symptom: [{
     type: Schema.Types.ObjectId,
     ref: "Symptom",
-  },
+  }],
 },
   {
     // this second object adds extra properties: `createdAt` and `updatedAt`
