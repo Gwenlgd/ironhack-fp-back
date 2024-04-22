@@ -8,19 +8,21 @@ const SALT = 12
 
 //! we are prefixed with /api/auth
 
+
+//! ajouter middleware cloudinary
 router.post(
   "/signup",
   async (req, res, next) => {
     try {
       console.log(req.body)
       // return res.send("wip")
-      const { email, password } = req.body
+      const { name, email, password } = req.body
       // const regex = new RegExp("^(?=.*[A-Z].*[A-Z])(?=.*[!@#$&*])(?=.*[0-9].*[0-9])(?=.*[a-z].*[a-z].*[a-z]).{6,}$")
       if (!password) {
         return res.status(400).json({ message: "password is required" })
       }
       const foundUser = await User.findOne({ email })
-      // if we find someone, warn the user that the email is alrady used
+      // if we find someone, warn the user that the email is already used
       if (foundUser) {
         return res.status(400).json({ message: "This email is already used" })
       }
@@ -29,6 +31,7 @@ router.post(
       const hashedPassword = await bcrypt.hash(password, SALT)
 
       const createdUser = await User.create({
+        name,
         email,
         password: hashedPassword,
       })
@@ -43,11 +46,13 @@ router.post(
   }
 )
 
+// !change here too
+
 router.post("/login", async (req, res, next) => {
   try {
-    const { email, password } = req.body
+    const { name, email, password } = req.body
 
-    const foundUser = await User.findOne({ email }, { password: 1, email: 1 })
+    const foundUser = await User.findOne({ email }, { name: 1, password: 1, email: 1 })
 
     if (!foundUser) {
       return res.status(400).json({ message: "Wrong credentials" })

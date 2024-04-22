@@ -15,12 +15,18 @@ async function seed() {
     const findIngredients = await Ingredients.find();
     const findSymptoms = await Symptoms.find();
 
-    for (let i = 0; i < 2; i++) {
+    // add date
+    for (let i = 0; i < 10; i++) {
+      const daysAgo = Math.floor(Math.random() * 7);
+      const randomDate = new Date();
+      randomDate.setDate(randomDate.getDate() - daysAgo);
+
       const createdInputs = await Input.create({
         user: findUsers[Math.floor(Math.random() * findUsers.length)]._id,
         mood: [findMoods[Math.floor(Math.random() * findMoods.length)]._id],
         ingredient: [findIngredients[Math.floor(Math.random() * findIngredients.length)]._id],
         symptom: [findSymptoms[Math.floor(Math.random() * findSymptoms.length)]._id],
+        date: randomDate,
 
       });
     }

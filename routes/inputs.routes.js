@@ -4,6 +4,7 @@ const Auth = require("../middlewares/isAuthenticated.js")
 
 // Add inputs of the day, and filter by date
 // http://localhost:5005/api/inputs
+//ALL INPUTS
 router.get("/", Auth, async (req, res, next) => {
   try {
     const search = generateSearch(req.query, req.currentUserId);
@@ -13,7 +14,7 @@ router.get("/", Auth, async (req, res, next) => {
       offset = Number(req.query.offset);
     }
 
-    const allInputs = await Input.find(search).populate("user ingredient mood symptom")
+    const allInputs = await Input.find(search).populate("user date ingredient mood symptom")
       .limit(50)
       .skip(offset);
     res.json(allInputs);
@@ -21,6 +22,21 @@ router.get("/", Auth, async (req, res, next) => {
     next(error);
   }
 });
+
+// ONE INPUT
+
+router.get("/:inputId", Auth, async (req, res, next) => {
+  try {
+    const input = await Input.findOne({ _id: req.params.inputId, user: req.currentUserId }).populate("user date ingredient mood symptom");
+    if (!input) {
+      return res.status(404).json({ message: "Input not found or access denied" });
+    }
+    res.json(input);
+  } catch (error) {
+    next(error);
+
+  }
+})
 
 // Delete an input
 router.delete("/:id", Auth, async (req, res, next) => {

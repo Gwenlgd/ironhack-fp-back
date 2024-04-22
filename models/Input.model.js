@@ -17,9 +17,13 @@ const inputSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: "Symptom",
   }],
+
+  date: {
+    type: Date,
+  }
 },
   {
-    // this second object adds extra properties: `createdAt` and `updatedAt`
+    // `createdAt` and `updatedAt`
     timestamps: true,
   }
 )
