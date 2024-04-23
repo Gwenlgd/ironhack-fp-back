@@ -43,11 +43,9 @@ router.post("/upsert", Auth, async (req, res, next) => {
   const userId = req.currentUserId;
 
   try {
-    // Ensure the date is at the start of the day in UTC for consistent querying
     const startOfDay = new Date(date);
     startOfDay.setUTCHours(0, 0, 0, 0);
 
-    // Attempt to find and update, or create a new input
     const input = await Input.findOneAndUpdate(
       {
         user: userId,
@@ -63,12 +61,16 @@ router.post("/upsert", Auth, async (req, res, next) => {
       },
       {
         new: true,
-        upsert: true  // This tells MongoDB to create a new document if no existing document matches the query
+        upsert: true
       }
     );
 
     res.status(200).json(input);
   } catch (error) {
+    if (error.code === 11000) {
+      // !! in case of double input for same date
+      return res.status(409).json({ message: "An input already exists for this date. Please update the existing input instead." });
+    }
     console.error("Error upserting input:", error);
     res.status(500).send("Failed to upsert input");
   }

@@ -17,7 +17,6 @@ const inputSchema = new Schema({
     type: Schema.Types.ObjectId,
     ref: "Symptom",
   }],
-
   date: {
     type: Date,
   }
@@ -27,6 +26,9 @@ const inputSchema = new Schema({
     timestamps: true,
   }
 )
+
+// Allows only 1 input by day
+inputSchema.index({ user: 1, date: 1 }, { unique: true });
 
 
 const Input = model("Input", inputSchema);
