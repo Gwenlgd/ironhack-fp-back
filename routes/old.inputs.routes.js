@@ -107,19 +107,15 @@ router.put("/:id", Auth, async (req, res, next) => {
 router.delete("/:inputId/ingredient/:ingredientId", Auth, async (req, res, next) => {
   try {
     const { inputId, ingredientId } = req.params;
-    const updatedInput = await Input.findOneAndUpdate(
+    await Input.findOneAndUpdate(
       { _id: inputId, user: req.currentUserId },
-      { $pull: { ingredient: ingredientId } },
+      { $pull: { ingredient: ingredientId } }
     );
-    if (!updatedInput) {
-      return res.status(404).json({ message: "Input not found or access denied" });
-    }
     res.json({ message: "Ingredient deleted successfully" });
   } catch (error) {
     next(error);
   }
 });
-
 
 // Delete a specific mood from an input
 router.delete("/:inputId/mood/:moodId", Auth, async (req, res, next) => {
