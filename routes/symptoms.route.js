@@ -13,7 +13,6 @@ router.get("/", async (req, res, next) => {
     }
 
     const allSymptoms = await Symptom.find(search)
-      .limit(50)
       .skip(offset);
     console.log(allSymptoms)
     res.json(allSymptoms);
