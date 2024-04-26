@@ -1,25 +1,5 @@
 [
   {
-    "name": "Rash",
-    "category": "Skin Reactions",
-    "impact": "Negative"
-  },
-  {
-    "name": "Pimples",
-    "category": "Skin Reactions",
-    "impact": "Negative"
-  },
-  {
-    "name": "Eczema",
-    "category": "Skin Reactions",
-    "impact": "Negative"
-  },
-  {
-    "name": "Dry skin",
-    "category": "Skin Reactions",
-    "impact": "Negative"
-  },
-  {
     "name": "Energetic",
     "category": "Energy",
     "impact": "Positive"
@@ -37,6 +17,26 @@
   {
     "name": "No energy",
     "category": "Energy",
+    "impact": "Negative"
+  },
+  {
+    "name": "Rash",
+    "category": "Skin Reactions",
+    "impact": "Negative"
+  },
+  {
+    "name": "Pimples",
+    "category": "Skin Reactions",
+    "impact": "Negative"
+  },
+  {
+    "name": "Eczema",
+    "category": "Skin Reactions",
+    "impact": "Negative"
+  },
+  {
+    "name": "Dry skin",
+    "category": "Skin Reactions",
     "impact": "Negative"
   },
   {

@@ -8,55 +8,23 @@
     "impact": "Positive"
   },
   {
-    "name": "Happy",
+    "name": "Excited",
     "impact": "Positive"
   },
   {
-    "name": "Sad",
-    "impact": "Negative"
-  },
-  {
-    "name": "Sensitive",
-    "impact": "Negative"
-  },
-  {
-    "name": "Angry",
-    "impact": "Negative"
+    "name": "Content",
+    "impact": "Positive"
   },
   {
     "name": "Confident",
     "impact": "Positive"
   },
   {
-    "name": "Excited",
-    "impact": "Positive"
-  },
-  {
-    "name": "Irritable",
-    "impact": "Negative"
-  },
-  {
-    "name": "Anxious",
-    "impact": "Negative"
-  },
-  {
-    "name": "Insecure",
-    "impact": "Negative"
-  },
-  {
     "name": "Grateful",
     "impact": "Negative"
   },
   {
-    "name": "Indifferent",
-    "impact": "Negative"
-  },
-  {
     "name": "Relaxed",
-    "impact": "Positive"
-  },
-  {
-    "name": "Content",
     "impact": "Positive"
   },
   {
@@ -88,7 +56,23 @@
     "impact": "Positive"
   },
   {
+    "name": "Indifferent",
+    "impact": "Negative"
+  },
+  {
+    "name": "Sensitive",
+    "impact": "Negative"
+  },
+  {
     "name": "Disappointed",
+    "impact": "Negative"
+  },
+  {
+    "name": "Insecure",
+    "impact": "Negative"
+  },
+  {
+    "name": "Sad",
     "impact": "Negative"
   },
   {
@@ -100,15 +84,23 @@
     "impact": "Negative"
   },
   {
+    "name": "Irritable",
+    "impact": "Negative"
+  },
+  {
     "name": "Stressed",
     "impact": "Negative"
   },
   {
-    "name": "Tired",
+    "name": "Anxious",
     "impact": "Negative"
   },
   {
     "name": "Frustrated",
+    "impact": "Negative"
+  },
+  {
+    "name": "Angry",
     "impact": "Negative"
   }
 ]

@@ -361,6 +361,16 @@
     }
   },
   {
+    "id": 37,
+    "name": "Green Leafy Vegetables",
+    "category": "Vegetables",
+    "benefits": {
+      "Vitamins and minerals": "Rich in vitamins A, C, and K, as well as minerals like iron and calcium.",
+      "Antioxidants": "Contain antioxidants that may reduce inflammation and protect against chronic diseases.",
+      "Fiber": "High in fiber, which aids in digestion and promotes gut health."
+    }
+  },
+  {
     "id": 38,
     "name": "Black Beans",
     "category": "Vegetables",
@@ -1188,6 +1198,206 @@
       "Fiber": "Higher in fiber than white bread, aids in digestion.",
       "Nutrients": "Contains essential nutrients like iron and B vitamins.",
       "Energy": "Provides sustained energy from complex carbohydrates."
+    }
+  },
+  {
+    "id": 247,
+    "name": "Cashews",
+    "category": "Nuts and Seeds",
+    "benefits": {
+      "Heart health": "Rich in monounsaturated fats that can improve cardiovascular health.",
+      "Bone health": "Good source of magnesium, which is essential for bone strength.",
+      "Iron": "Contains iron which helps in preventing anemia."
+    }
+  },
+  {
+    "id": 248,
+    "name": "Pears",
+    "category": "Fruits",
+    "benefits": {
+      "Fiber": "High in fiber, promoting digestive health and regularity.",
+      "Vitamin C": "Provides vitamin C to boost the immune system and repair tissues.",
+      "Low Glycemic Index": "Has a low glycemic index, which helps manage blood sugar levels."
+    }
+  },
+  {
+    "id": 249,
+    "name": "Zucchini",
+    "category": "Vegetables",
+    "benefits": {
+      "Low Calorie": "Low in calories, great for weight management.",
+      "Hydration": "High water content helps with hydration.",
+      "Antioxidants": "Contains important antioxidants like vitamin C and A."
+    }
+  },
+  {
+    "id": 250,
+    "name": "Lime",
+    "category": "Fruits",
+    "benefits": {
+      "Digestive aid": "Promotes healthy digestion.",
+      "Vitamin C": "Excellent source of vitamin C, enhancing immune defense.",
+      "Skin health": "Helps in maintaining healthy skin."
+    }
+  },
+  {
+    "id": 251,
+    "name": "Pecans",
+    "category": "Nuts and Seeds",
+    "benefits": {
+      "Heart health": "May lower cholesterol levels due to their high monounsaturated fat content.",
+      "Brain function": "Rich in antioxidants like vitamin E, which can protect the brain.",
+      "Weight management": "High in fiber and healthy fats that can promote satiety."
+    }
+  },
+  {
+    "id": 252,
+    "name": "Strawberries",
+    "category": "Fruits",
+    "benefits": {
+      "Heart health": "Contains anthocyanins which improve heart health.",
+      "Skin health": "Rich in vitamin C, vital for collagen production and skin care.",
+      "Anti-inflammatory": "Has anti-inflammatory properties, beneficial for reducing pain."
+    }
+  },
+  {
+    "id": 253,
+    "name": "Mustard Greens",
+    "category": "Vegetables",
+    "benefits": {
+      "Bone health": "High in vitamin K, crucial for bone health.",
+      "Antioxidants": "Contains antioxidants that protect against cellular damage.",
+      "Detoxification": "Supports detoxification processes in the liver."
+    }
+  },
+  {
+    "id": 254,
+    "name": "Sunflower Seeds",
+    "category": "Nuts and Seeds",
+    "benefits": {
+      "Vitamin E": "Excellent source of Vitamin E, which supports skin health.",
+      "Heart health": "Contains phytosterols that can reduce cholesterol.",
+      "Energy": "Provides magnesium, which helps produce energy."
+    }
+  },
+  {
+    "id": 255,
+    "name": "Paprika",
+    "category": "Herbs and Spices",
+    "benefits": {
+      "Eye health": "Rich in vitamin A, enhancing eye health.",
+      "Anti-inflammatory": "Contains capsaicin, known for its anti-inflammatory properties.",
+      "Immune booster": "High in antioxidants, boosting the immune system."
+    }
+  },
+  {
+    "id": 256,
+    "name": "Butternut Squash",
+    "category": "Vegetables",
+    "benefits": {
+      "Vitamin A": "High in vitamin A, promoting good vision and immune health.",
+      "Fiber": "Contains dietary fiber, aiding in healthy digestion.",
+      "Antioxidants": "Rich in antioxidants that help reduce inflammation."
+    }
+  },
+  {
+    "id": 257,
+    "name": "Edamame",
+    "category": "Legumes",
+    "benefits": {
+      "Protein": "Excellent source of plant-based protein, supporting muscle health.",
+      "Fiber": "High in fiber, aiding in digestion and heart health.",
+      "Isoflavones": "Contains isoflavones, which may help in reducing the risk of certain cancers."
+    }
+  },
+  {
+    "id": 258,
+    "name": "Kombucha",
+    "category": "Beverages",
+    "benefits": {
+      "Digestive health": "Rich in probiotics, supporting gut health and digestion.",
+      "Detoxification": "May aid in detoxifying the body, enhancing liver function.",
+      "Immune system": "Boosts the immune system due to its high levels of antioxidants."
+    }
+  },
+  {
+    "id": 259,
+    "name": "Mint",
+    "category": "Herbs and Spices",
+    "benefits": {
+      "Digestive aid": "Can relieve symptoms of indigestion and reduce bloating.",
+      "Oral health": "Freshens breath and helps in the reduction of bacteria in the mouth.",
+      "Mental alertness": "Mint aroma may enhance memory and increase alertness."
+    }
+  },
+  {
+    "id": 260,
+    "name": "Radicchio",
+    "category": "Vegetables",
+    "benefits": {
+      "Antioxidants": "Contains antioxidants that may prevent inflammation and reduce the risk of cancer.",
+      "Digestive health": "Promotes digestion and is a good source of dietary fiber.",
+      "Bone health": "Rich in vitamin K, crucial for bone health and blood clotting."
+    }
+  },
+  {
+    "id": 261,
+    "name": "Dragon Fruit",
+    "category": "Fruits",
+    "benefits": {
+      "Immune system": "Boosts the immune system due to its high vitamin C content.",
+      "Metabolism": "Contains fiber and protein, helping to boost metabolism.",
+      "Skin health": "Provides antioxidants that maintain healthy skin."
+    }
+  },
+  {
+    "id": 262,
+    "name": "Macadamia Nuts",
+    "category": "Nuts and Seeds",
+    "benefits": {
+      "Heart health": "High in monounsaturated fats, beneficial for cardiovascular health.",
+      "Weight management": "Rich in fiber and fats that promote satiety and aid in weight control.",
+      "Bone health": "Contains phosphorus, magnesium, and calcium for strong bones."
+    }
+  },
+  {
+    "id": 263,
+    "name": "Goji Berries",
+    "category": "Fruits",
+    "benefits": {
+      "Eye health": "High in antioxidants, particularly zeaxanthin, which can protect the eyes.",
+      "Immune function": "Boosts the immune system with high levels of vitamin C and A.",
+      "Energy levels": "May help increase energy and improve mood."
+    }
+  },
+  {
+    "id": 264,
+    "name": "Anchovies",
+    "category": "Meat and Fish",
+    "benefits": {
+      "Omega-3 fatty acids": "Rich in omega-3 fatty acids, which are beneficial for heart health.",
+      "Protein": "Provides high-quality protein to support muscle health.",
+      "Bone health": "High in calcium, which is essential for healthy bones."
+    }
+  },
+  {
+    "id": 265,
+    "name": "Quark",
+    "category": "Dairy and Alternatives",
+    "benefits": {
+      "Protein": "High in protein, essential for muscle growth and repair.",
+      "Low fat": "Low-fat dairy option, beneficial for weight management.",
+      "Digestive health": "Contains probiotics that can help balance gut flora."
+    }
+  },
+  {
+    "id": 266,
+    "name": "Amaranth",
+    "category": "Grains and Flours",
+    "benefits": {
+      "Protein": "Contains lysine, an essential amino acid, making it a complete protein source.",
+      "Fiber": "High in fiber, aiding in digestive health.",
+      "Minerals": "Rich in magnesium, iron, and selenium."
     }
   }
 ]
