@@ -34,25 +34,13 @@ router.get("/:ingredientId", async (req, res, next) => {
     }
     res.json(ingredient);
   } catch (error) {
+    console.error("Failed to fetch ingredient:", error);
+    res.status(500).json({ message: "Internal Server Error" });
     next(error);
 
   }
 })
-// router.get("/:ingredientId", Auth, async (req, res, next) => {
-//   try {
-//     const ingredient = await Ingredient.findOne({ _id: req.params.ingredientId });
-//     if (!ingredient) {
-//       return res.status(400).json({ message: "ingredient not found or access denied" });
-//     }
-//     res.json(ingredient);
-//   } catch (error) {
-//     next(error);
 
-//   }
-// })
-
-// Delete on ingredient inside an input
-//!! not working?
 
 // router.delete("/inputs/:inputId/ingredients/:ingredientId", Auth, async (req, res, next) => {
 router.delete("/inputs/:inputId/ingredients/:ingredientId", async (req, res, next) => {

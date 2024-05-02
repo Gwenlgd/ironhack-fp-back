@@ -1,106 +1,132 @@
 [
   {
     "name": "Happy",
+    "icon": "1F604",
     "impact": "Positive"
   },
   {
     "name": "Super Happy",
+    "icon": "1F604",
     "impact": "Positive"
   },
   {
     "name": "Excited",
+    "icon": "1F604",
     "impact": "Positive"
   },
   {
     "name": "Content",
+    "icon": "1F604",
     "impact": "Positive"
   },
   {
     "name": "Confident",
+    "icon": "1F604",
     "impact": "Positive"
   },
   {
     "name": "Grateful",
+    "icon": "1F604",
     "impact": "Negative"
   },
   {
     "name": "Relaxed",
+    "icon": "1F9D8",
     "impact": "Positive"
   },
   {
     "name": "Joyful",
+    "icon": "1F604",
     "impact": "Positive"
   },
   {
     "name": "Optimistic",
+    "icon": "1F619",
     "impact": "Positive"
   },
   {
     "name": "Calm",
+    "icon": "1F604",
     "impact": "Positive"
   },
   {
     "name": "Energetic",
+    "icon": "1F3C3",
     "impact": "Positive"
   },
   {
     "name": "Motivated",
+    "icon": "1F604",
     "impact": "Positive"
   },
   {
     "name": "Enthusiastic",
+    "icon": "1F604",
     "impact": "Positive"
   },
   {
     "name": "Peaceful",
+    "icon": "1F604",
     "impact": "Positive"
   },
   {
     "name": "Indifferent",
+    "icon": "1F604",
     "impact": "Negative"
   },
   {
     "name": "Sensitive",
+    "icon": "1F604",
     "impact": "Negative"
   },
   {
     "name": "Disappointed",
+    "icon": "1F604",
     "impact": "Negative"
   },
   {
     "name": "Insecure",
+    "icon": "1F604",
     "impact": "Negative"
   },
   {
     "name": "Sad",
+    "icon": "1F604",
     "impact": "Negative"
   },
   {
     "name": "Lonely",
+    "icon": "1F604",
     "impact": "Negative"
   },
   {
     "name": "Overwhelmed",
+    "icon": "1F604",
     "impact": "Negative"
   },
   {
     "name": "Irritable",
+    "icon": "1F604",
     "impact": "Negative"
   },
   {
     "name": "Stressed",
+    "icon": "1F604",
     "impact": "Negative"
   },
   {
     "name": "Anxious",
+    "icon": "1F604",
     "impact": "Negative"
   },
   {
     "name": "Frustrated",
+    "icon": "1F604",
     "impact": "Negative"
   },
   {
     "name": "Angry",
+    "icon": "1F604",
     "impact": "Negative"
   }
 ]

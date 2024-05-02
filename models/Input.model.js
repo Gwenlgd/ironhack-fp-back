@@ -22,7 +22,6 @@ const inputSchema = new Schema({
   }
 },
   {
-    // `createdAt` and `updatedAt`
     timestamps: true,
   }
 )

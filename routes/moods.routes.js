@@ -13,7 +13,6 @@ router.get("/", async (req, res, next) => {
     }
 
     const allMoods = await Mood.find(search)
-      .limit(50)
       .skip(offset);
     console.log(allMoods)
     res.json(allMoods);
